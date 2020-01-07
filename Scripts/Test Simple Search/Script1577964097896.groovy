@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Go
 WebUI.setEncryptedText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
     'd097ITWPO7f2v9EptRJGCg==')
 
-WebUI.clickImage(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
+WebUI.click(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/div_Neste'))
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon'))
 

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite Quria Search,Firefox 69.0,,2020-01-03 12:26:33,2020-01-03 12:27:17,44.770s,FAILED
+,,,,,,
+Test Cases/New Test Case Quria Search,Firefox 69.0,,2020-01-03 12:26:33,2020-01-03 12:27:08,35.061s,FAILED
+"openBrowser("""")",Firefox 69.0,,2020-01-03 12:26:33,2020-01-03 12:26:40,6.814s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Firefox 69.0,,2020-01-03 12:26:40,2020-01-03 12:26:41,1.228s,PASSED
+"click(findTestObject(""Object Repository/Quria Search/Page_Axiell Quria/a_Sign in with Google""))",Firefox 69.0,,2020-01-03 12:26:41,2020-01-03 12:26:42,0.455s,PASSED
+"setText(findTestObject(""Object Repository/Quria Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Firefox 69.0,,2020-01-03 12:26:42,2020-01-03 12:26:43,0.888s,PASSED
+"click(findTestObject(""Object Repository/Quria Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-03 12:26:43,2020-01-03 12:26:43,0.282s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Quria Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Firefox 69.0,,2020-01-03 12:26:43,2020-01-03 12:26:44,0.693s,PASSED
+"click(findTestObject(""Object Repository/Quria Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-03 12:26:44,2020-01-03 12:27:08,24.313s,FAILED
+,,,,,,
+Test Cases/Test Sign in Quria,Firefox 69.0,,2020-01-03 12:27:08,2020-01-03 12:27:08,0.320s,FAILED
+"openBrowser(""https://accounts.google.com/signin/oauth/identifier?client_id=398082617796-in0gu90ucdasgcoo8c4tockr4rtot3so.apps.googleusercontent.com&as=s-ygPBDdir4kjVMf1nAfsQ&destination=https%3A%2F%2Fnightlyno.quriaint.axiell.com&approval_state=!ChR4ZHlHalB1OFNmamg0bTMtSEQtbhIfdzhaeVFWa054NUlaOERFdWhZOThQYzhWM3NwaTloWQ%E2%88%99AJDr988AAAAAXg8v4bJ8GBneVwMoHv-ntTZ4J1ZRsLVs&oauthgdpr=1&xsrfsig=ChkAeAh8T1qJ1L1-m6_st3N8rPmbbU7C8x4yEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&flowName=GeneralOAuthFlow"")",Firefox 69.0,,2020-01-03 12:27:08,2020-01-03 12:27:08,0.072s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,Firefox 69.0,,2020-01-03 12:27:08,2020-01-03 12:27:16,7.820s,FAILED
+"openBrowser("""")",Firefox 69.0,,2020-01-03 12:27:08,2020-01-03 12:27:12,3.998s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Firefox 69.0,,2020-01-03 12:27:12,2020-01-03 12:27:13,1.069s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Firefox 69.0,,2020-01-03 12:27:13,2020-01-03 12:27:14,0.454s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Firefox 69.0,,2020-01-03 12:27:14,2020-01-03 12:27:15,0.768s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-03 12:27:15,2020-01-03 12:27:15,0.529s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Firefox 69.0,,2020-01-03 12:27:15,2020-01-03 12:27:16,0.702s,PASSED
+"clickImage(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-03 12:27:16,2020-01-03 12:27:16,0.084s,FAILED
