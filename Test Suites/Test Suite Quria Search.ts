@@ -17,12 +17,6 @@
       <testCaseId>Test Cases/Test Simple Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2fc462a5-40ce-4d8c-a990-475c3deab23a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Facet</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d48c354a-648e-4bf9-ab7b-1d63c31fe11d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

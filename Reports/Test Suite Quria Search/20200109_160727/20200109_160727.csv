@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search,Chrome 79.0.3945.88,,2020-01-09 16:07:29,2020-01-09 16:10:21,2m - 52.181s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,Chrome 79.0.3945.88,,2020-01-09 16:07:29,2020-01-09 16:08:01,31.967s,FAILED
+"openBrowser("""")",Chrome 79.0.3945.88,,2020-01-09 16:07:30,2020-01-09 16:07:38,8.085s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 79.0.3945.88,,2020-01-09 16:07:38,2020-01-09 16:07:38,0.726s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 79.0.3945.88,,2020-01-09 16:07:38,2020-01-09 16:07:39,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 79.0.3945.88,,2020-01-09 16:07:39,2020-01-09 16:07:41,1.537s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.88,,2020-01-09 16:07:41,2020-01-09 16:07:41,0.201s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 79.0.3945.88,,2020-01-09 16:07:41,2020-01-09 16:07:42,1.351s,FAILED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 79.0.3945.88,,2020-01-09 16:07:42,2020-01-09 16:07:42,0.108s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Chrome 79.0.3945.88,,2020-01-09 16:07:42,2020-01-09 16:07:59,16.981s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",Chrome 79.0.3945.88,,2020-01-09 16:07:59,2020-01-09 16:08:00,0.691s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 79.0.3945.88,,2020-01-09 16:08:00,2020-01-09 16:08:00,0.081s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 79.0.3945.88,,2020-01-09 16:08:00,2020-01-09 16:08:01,0.468s,FAILED
+closeBrowser(),Chrome 79.0.3945.88,,2020-01-09 16:08:01,2020-01-09 16:08:01,0.669s,FAILED
+,,,,,,
+Test Cases/Test Facet,Chrome 79.0.3945.88,,2020-01-09 16:08:01,2020-01-09 16:10:19,2m - 18.121s,FAILED
+"openBrowser("""")",Chrome 79.0.3945.88,,2020-01-09 16:08:02,2020-01-09 16:08:07,5.583s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 79.0.3945.88,,2020-01-09 16:08:07,2020-01-09 16:08:08,0.486s,PASSED
+"click(findTestObject(""Object Repository/Test Facet/Page_Axiell Quria/a_Sign in with Google""))",Chrome 79.0.3945.88,,2020-01-09 16:08:08,2020-01-09 16:08:08,0.455s,PASSED
+"setText(findTestObject(""Object Repository/Test Facet/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 79.0.3945.88,,2020-01-09 16:08:08,2020-01-09 16:08:09,1.460s,PASSED
+"click(findTestObject(""Object Repository/Test Facet/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.88,,2020-01-09 16:08:09,2020-01-09 16:08:10,0.185s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Facet/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 79.0.3945.88,,2020-01-09 16:08:10,2020-01-09 16:08:11,1.218s,FAILED
+"click(findTestObject(""Object Repository/Test Facet/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.88,,2020-01-09 16:08:11,2020-01-09 16:08:43,31.857s,FAILED
+"click(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/span_Samlinger""))",Chrome 79.0.3945.88,,2020-01-09 16:08:43,2020-01-09 16:08:43,0.431s,FAILED
+"setText(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Creator: Brown"")",Chrome 79.0.3945.88,,2020-01-09 16:08:43,2020-01-09 16:09:15,31.461s,FAILED
+"click(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/div_Resultater 16""))",Chrome 79.0.3945.88,,2020-01-09 16:09:15,2020-01-09 16:09:47,32.016s,FAILED
+"click(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/div_Resultater 16""))",Chrome 79.0.3945.88,,2020-01-09 16:09:47,2020-01-09 16:10:18,31.400s,FAILED
+"click(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 79.0.3945.88,,2020-01-09 16:10:18,2020-01-09 16:10:18,0.134s,PASSED
+"click(findTestObject(""Object Repository/Test Facet/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 79.0.3945.88,,2020-01-09 16:10:18,2020-01-09 16:10:19,0.547s,FAILED
+closeBrowser(),Chrome 79.0.3945.88,,2020-01-09 16:10:19,2020-01-09 16:10:19,0.634s,FAILED
+,,,,,,
+"Test Cases/Test Single Search hit, only one hit result",Chrome 79.0.3945.88,,2020-01-09 16:10:19,2020-01-09 16:10:20,0.226s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.000s,PASSED
+,,,,,,
+Test Cases/Test turn off stop word,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.216s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify free text search,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.208s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify Fuzzy search,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.235s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:20,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify phrase search,Chrome 79.0.3945.88,,2020-01-09 16:10:20,2020-01-09 16:10:21,0.221s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify scandinavian letters,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.222s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.234s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify truncation and masking,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.195s,PASSED
+return null,Chrome 79.0.3945.88,,2020-01-09 16:10:21,2020-01-09 16:10:21,0.001s,PASSED

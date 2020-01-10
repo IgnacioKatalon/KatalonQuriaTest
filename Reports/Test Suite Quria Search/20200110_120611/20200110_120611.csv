@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search,Chrome 79.0.3945.117,,2020-01-10 12:06:13,2020-01-10 12:06:33,20.150s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,Chrome 79.0.3945.117,,2020-01-10 12:06:13,2020-01-10 12:06:31,18.023s,FAILED
+"openBrowser("""")",Chrome 79.0.3945.117,,2020-01-10 12:06:14,2020-01-10 12:06:22,8.142s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 79.0.3945.117,,2020-01-10 12:06:22,2020-01-10 12:06:23,0.640s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 79.0.3945.117,,2020-01-10 12:06:23,2020-01-10 12:06:23,0.524s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 79.0.3945.117,,2020-01-10 12:06:23,2020-01-10 12:06:24,1.425s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.117,,2020-01-10 12:06:24,2020-01-10 12:06:25,0.217s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Chrome 79.0.3945.117,,2020-01-10 12:06:25,2020-01-10 12:06:25,0.573s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 79.0.3945.117,,2020-01-10 12:06:25,2020-01-10 12:06:26,0.296s,PASSED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 79.0.3945.117,,2020-01-10 12:06:26,2020-01-10 12:06:26,0.213s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Chrome 79.0.3945.117,,2020-01-10 12:06:26,2020-01-10 12:06:29,3.620s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",Chrome 79.0.3945.117,,2020-01-10 12:06:29,2020-01-10 12:06:30,0.683s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 79.0.3945.117,,2020-01-10 12:06:30,2020-01-10 12:06:30,0.090s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 79.0.3945.117,,2020-01-10 12:06:30,2020-01-10 12:06:31,0.463s,FAILED
+closeBrowser(),Chrome 79.0.3945.117,,2020-01-10 12:06:31,2020-01-10 12:06:31,0.685s,FAILED
+,,,,,,
+"Test Cases/Test Single Search hit, only one hit result",Chrome 79.0.3945.117,,2020-01-10 12:06:31,2020-01-10 12:06:32,0.250s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.000s,PASSED
+,,,,,,
+Test Cases/Test turn off stop word,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.219s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify free text search,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.214s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify Fuzzy search,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.225s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify phrase search,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.210s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:32,2020-01-10 12:06:32,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify scandinavian letters,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.229s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.223s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify truncation and masking,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.218s,PASSED
+return null,Chrome 79.0.3945.117,,2020-01-10 12:06:33,2020-01-10 12:06:33,0.000s,PASSED

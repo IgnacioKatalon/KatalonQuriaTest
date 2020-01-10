@@ -24,6 +24,9 @@ WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
 
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
+    30)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
     'd097ITWPO7f2v9EptRJGCg==')
 
@@ -35,6 +38,8 @@ WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyn
     'Cervantes')
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'), 30)
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
 
