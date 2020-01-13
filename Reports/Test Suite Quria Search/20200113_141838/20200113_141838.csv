@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search,Firefox 69.0,,2020-01-13 14:18:49,2020-01-13 14:20:21,1m - 32.471s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,Firefox 69.0,,2020-01-13 14:18:50,2020-01-13 14:19:29,39.214s,PASSED
+"openBrowser("""")",Firefox 69.0,,2020-01-13 14:18:53,2020-01-13 14:19:08,15.830s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Firefox 69.0,,2020-01-13 14:19:08,2020-01-13 14:19:10,1.208s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Firefox 69.0,,2020-01-13 14:19:10,2020-01-13 14:19:10,0.760s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Firefox 69.0,,2020-01-13 14:19:10,2020-01-13 14:19:12,1.378s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-13 14:19:12,2020-01-13 14:19:12,0.726s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Firefox 69.0,,2020-01-13 14:19:12,2020-01-13 14:19:13,0.653s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Firefox 69.0,,2020-01-13 14:19:13,2020-01-13 14:19:14,0.404s,PASSED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",Firefox 69.0,,2020-01-13 14:19:14,2020-01-13 14:19:19,5.878s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Firefox 69.0,,2020-01-13 14:19:19,2020-01-13 14:19:24,4.237s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",Firefox 69.0,,2020-01-13 14:19:24,2020-01-13 14:19:25,1.414s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Firefox 69.0,,2020-01-13 14:19:25,2020-01-13 14:19:25,0.381s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""), 30)",Firefox 69.0,,2020-01-13 14:19:25,2020-01-13 14:19:26,0.114s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Firefox 69.0,,2020-01-13 14:19:26,2020-01-13 14:19:26,0.399s,PASSED
+closeBrowser(),Firefox 69.0,,2020-01-13 14:19:26,2020-01-13 14:19:29,3.155s,PASSED
+,,,,,,
+"Test Cases/Test Single Search hit, only one hit result",Firefox 69.0,,2020-01-13 14:19:29,2020-01-13 14:19:30,0.982s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:30,2020-01-13 14:19:30,0.002s,PASSED
+,,,,,,
+Test Cases/Test turn off stop word,Firefox 69.0,,2020-01-13 14:19:30,2020-01-13 14:19:31,0.398s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:31,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify free text search,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:31,0.353s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:31,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify Fuzzy search,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:31,0.429s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:31,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify phrase search,Firefox 69.0,,2020-01-13 14:19:31,2020-01-13 14:19:32,0.365s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:32,2020-01-13 14:19:32,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify scandinavian letters,Firefox 69.0,,2020-01-13 14:19:32,2020-01-13 14:19:32,0.434s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:32,2020-01-13 14:19:32,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,Firefox 69.0,,2020-01-13 14:19:32,2020-01-13 14:19:33,0.401s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:33,2020-01-13 14:19:33,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify truncation and masking,Firefox 69.0,,2020-01-13 14:19:33,2020-01-13 14:19:33,0.331s,PASSED
+return null,Firefox 69.0,,2020-01-13 14:19:33,2020-01-13 14:19:33,0.000s,PASSED
+,,,,,,
+Test Cases/Test Adv Boolean,Firefox 69.0,"cre:""andersen"" NOT fyrtøyet",2020-01-13 14:19:33,2020-01-13 14:20:21,48.496s,FAILED
+"openBrowser("""")",Firefox 69.0,,2020-01-13 14:19:34,2020-01-13 14:19:41,7.253s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Firefox 69.0,,2020-01-13 14:19:41,2020-01-13 14:19:42,1.114s,PASSED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Axiell Quria/a_Sign in with Google""))",Firefox 69.0,,2020-01-13 14:19:42,2020-01-13 14:19:43,0.909s,PASSED
+"setText(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Firefox 69.0,,2020-01-13 14:19:43,2020-01-13 14:19:44,0.820s,PASSED
+"waitForElementVisible(findTestObject(""Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""), 30)",Firefox 69.0,,2020-01-13 14:19:44,2020-01-13 14:20:14,30.792s,PASSED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-13 14:20:14,2020-01-13 14:20:21,6.749s,FAILED
+"waitForElementVisible(findTestObject(""Test Adv Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.012s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.015s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""))",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.020s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/md-icon""))",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.014s,FAILED
+"setText(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""cre:""andersen"" NOT fyrtøyet"")",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.013s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/div_Resultater 55""))",Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.014s,FAILED
+closeBrowser(),Firefox 69.0,,2020-01-13 14:20:21,2020-01-13 14:20:21,0.064s,FAILED

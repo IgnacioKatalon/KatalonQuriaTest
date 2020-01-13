@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Patron,,,2020-01-13 14:18:50,2020-01-13 14:18:56,5.715s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,,,2020-01-13 14:18:51,2020-01-13 14:18:54,3.027s,PASSED
+return null,,,2020-01-13 14:18:54,2020-01-13 14:18:54,0.003s,PASSED

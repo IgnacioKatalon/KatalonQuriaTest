@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search,,,2020-01-13 14:18:50,2020-01-13 14:19:04,14.046s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,,,2020-01-13 14:18:51,2020-01-13 14:18:59,8.164s,FAILED
+"openBrowser("""")",,,2020-01-13 14:18:54,2020-01-13 14:18:57,2.572s,FAILED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",,,2020-01-13 14:18:57,2020-01-13 14:18:57,0.032s,FAILED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",,,2020-01-13 14:18:57,2020-01-13 14:18:57,0.179s,FAILED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",,,2020-01-13 14:18:57,2020-01-13 14:18:57,0.047s,FAILED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",,,2020-01-13 14:18:57,2020-01-13 14:18:57,0.022s,FAILED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",,,2020-01-13 14:18:57,2020-01-13 14:18:57,0.031s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",,,2020-01-13 14:18:57,2020-01-13 14:18:59,1.934s,FAILED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.019s,FAILED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.011s,FAILED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.010s,FAILED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.010s,FAILED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""), 30)",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.009s,FAILED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.013s,FAILED
+closeBrowser(),,,2020-01-13 14:18:59,2020-01-13 14:18:59,0.029s,FAILED
+,,,,,,
+"Test Cases/Test Single Search hit, only one hit result",,,2020-01-13 14:18:59,2020-01-13 14:19:00,0.349s,PASSED
+return null,,,2020-01-13 14:19:00,2020-01-13 14:19:00,0.000s,PASSED
+,,,,,,
+Test Cases/Test turn off stop word,,,2020-01-13 14:19:00,2020-01-13 14:19:00,0.359s,PASSED
+return null,,,2020-01-13 14:19:00,2020-01-13 14:19:00,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify free text search,,,2020-01-13 14:19:00,2020-01-13 14:19:00,0.432s,PASSED
+return null,,,2020-01-13 14:19:00,2020-01-13 14:19:00,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify Fuzzy search,,,2020-01-13 14:19:00,2020-01-13 14:19:01,0.350s,PASSED
+return null,,,2020-01-13 14:19:01,2020-01-13 14:19:01,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify phrase search,,,2020-01-13 14:19:01,2020-01-13 14:19:01,0.359s,PASSED
+return null,,,2020-01-13 14:19:01,2020-01-13 14:19:01,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify scandinavian letters,,,2020-01-13 14:19:01,2020-01-13 14:19:02,0.458s,PASSED
+return null,,,2020-01-13 14:19:02,2020-01-13 14:19:02,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,,,2020-01-13 14:19:02,2020-01-13 14:19:02,0.373s,PASSED
+return null,,,2020-01-13 14:19:02,2020-01-13 14:19:02,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify truncation and masking,,,2020-01-13 14:19:02,2020-01-13 14:19:03,0.554s,PASSED
+return null,,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.000s,PASSED
+,,,,,,
+Test Cases/Test Adv Boolean,,"cre:""andersen"" NOT fyrtøyet",2020-01-13 14:19:03,2020-01-13 14:19:04,1.051s,FAILED
+"openBrowser("""")",,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.010s,FAILED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.006s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Axiell Quria/a_Sign in with Google""))",,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.049s,FAILED
+"setText(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.016s,FAILED
+"waitForElementVisible(findTestObject(""Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""), 30)",,,2020-01-13 14:19:03,2020-01-13 14:19:03,0.014s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""))",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.024s,FAILED
+"waitForElementVisible(findTestObject(""Test Adv Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.008s,FAILED
+"setEncryptedText(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.009s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_Logg p  Google-kontoer/span_Neste""))",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.007s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/md-icon""))",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.031s,FAILED
+"setText(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""cre:""andersen"" NOT fyrtøyet"")",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.010s,FAILED
+"click(findTestObject(""Object Repository/Test Adv Search/Page_nightlyno - Axiell Quria/div_Resultater 55""))",,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.011s,FAILED
+closeBrowser(),,,2020-01-13 14:19:04,2020-01-13 14:19:04,0.003s,FAILED
