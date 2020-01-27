@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Quria Search" time="97" tests="8" failures="1" errors="0">
+   <testsuite name="Test Suite Quria Search" tests="8" failures="1" errors="0" time="97" timestamp="2020-01-24 14:34:58" hostname="ignacio - BIBITS-IGNACIO2.bibsent.no" id="Test Suites/Test Suite Quria Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Suite Quria Search\\20200124_143454"/>
+         <property name="logFiles" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Suite Quria Search\\20200124_143454\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ignacio - BIBITS-IGNACIO2.bibsent.no"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="10.81.254.63"/>
+         <property name="sessionId" value="345f7dd5618257de58e0307caf95256f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Simple Search" classname="Test Cases/Test Simple Search" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:34:58 - [TEST_CASE][PASSED] - Test Cases/Test Simple Search: Test Cases/Test Simple Search
+
+2020-01-24 14:34:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 14:35:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 14:35:00 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-01-24 14:35:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 14:35:12 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"): Navigate to 'https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html' successfully
+
+2020-01-24 14:35:14 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html' successfully
+
+2020-01-24 14:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-01-24 14:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-01-24 14:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'
+
+2020-01-24 14:35:22 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'
+
+2020-01-24 14:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-01-24 14:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-01-24 14:35:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for"), 30): Object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for' is visible
+
+2020-01-24 14:35:26 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for' is visible
+
+2020-01-24 14:35:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'
+
+2020-01-24 14:35:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'
+
+2020-01-24 14:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-01-24 14:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-01-24 14:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-01-24 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-01-24 14:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Cervantes"): Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-01-24 14:35:42 - [MESSAGE][PASSED] - Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-01-24 14:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-01-24 14:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-01-24 14:35:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-01-24 14:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-01-24 14:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-01-24 14:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-01-24 14:35:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-24 14:35:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Single Search hit, only one hit result" classname="Test Cases/Test Single Search hit, only one hit result" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:35:50 - [TEST_CASE][PASSED] - Test Cases/Test Single Search hit, only one hit result: Test Cases/Test Single Search hit, only one hit result
+
+2020-01-24 14:35:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-24 14:35:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-24 14:35:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-24 14:35:58 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"): Navigate to 'https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html' successfully
+
+2020-01-24 14:35:59 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html' successfully
+
+2020-01-24 14:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-01-24 14:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-01-24 14:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'
+
+2020-01-24 14:36:06 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'
+
+2020-01-24 14:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-01-24 14:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-01-24 14:36:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for"), 30): Object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for' is visible
+
+2020-01-24 14:36:10 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for' is visible
+
+2020-01-24 14:36:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'
+
+2020-01-24 14:36:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'
+
+2020-01-24 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-01-24 14:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-01-24 14:36:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-01-24 14:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-01-24 14:36:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Cervantes"): Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-01-24 14:36:26 - [MESSAGE][PASSED] - Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-01-24 14:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-01-24 14:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-01-24 14:36:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-01-24 14:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-01-24 14:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-01-24 14:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-01-24 14:36:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-24 14:36:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test turn off stop word" classname="Test Cases/Test turn off stop word" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test turn off stop word FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-24 14:36:34 - [TEST_CASE][FAILED] - Test Cases/Test turn off stop word: Test Cases/Test turn off stop word FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)
+
+
+2020-01-24 14:36:34 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)
+
+
+2020-01-24 14:36:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-01-24 14:36:34 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2020-01-24 14:36:34 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-01-24 14:36:34 - [TEST_CASE][FAILED] - Test Cases/Test turn off stop word: Test Cases/Test turn off stop word FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify free text search" classname="Test Cases/Test verify free text search" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:34 - [TEST_CASE][PASSED] - Test Cases/Test verify free text search: Test Cases/Test verify free text search
+
+2020-01-24 14:36:34 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify Fuzzy search" classname="Test Cases/Test verify Fuzzy search" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:34 - [TEST_CASE][PASSED] - Test Cases/Test verify Fuzzy search: Test Cases/Test verify Fuzzy search
+
+2020-01-24 14:36:34 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify phrase search" classname="Test Cases/Test verify phrase search" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:34 - [TEST_CASE][PASSED] - Test Cases/Test verify phrase search: Test Cases/Test verify phrase search
+
+2020-01-24 14:36:35 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify scandinavian letters" classname="Test Cases/Test verify scandinavian letters" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:35 - [TEST_CASE][PASSED] - Test Cases/Test verify scandinavian letters: Test Cases/Test verify scandinavian letters
+
+2020-01-24 14:36:35 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify stop words" classname="Test Cases/Test verify stop words" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:35 - [TEST_CASE][PASSED] - Test Cases/Test verify stop words: Test Cases/Test verify stop words
+
+2020-01-24 14:36:35 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify truncation and masking" classname="Test Cases/Test verify truncation and masking" status="PASSED">
+         <system-out><![CDATA[2020-01-24 14:36:35 - [TEST_CASE][PASSED] - Test Cases/Test verify truncation and masking: Test Cases/Test verify truncation and masking
+
+2020-01-24 14:36:35 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-24 14:34:58 - [TEST_SUITE][FAILED] - Test Suite Quria Search: Test Cases/Test turn off stop word FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-24 14:34:58 - [TEST_SUITE][FAILED] - Test Suite Quria Search: Test Cases/Test turn off stop word FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BIBITS-IGNACIO2', ip: '10.81.254.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Test turn off stop word.run(Test turn off stop word:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579872894824.run(TempTestSuite1579872894824.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

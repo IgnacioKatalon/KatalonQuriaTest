@@ -64,10 +64,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test verify truncation and masking</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>15d30370-5a0d-4a37-8281-a1cc8d8eb626</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Adv Boolean</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

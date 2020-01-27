@@ -2512,4 +2512,8 @@ Session ID: 68e30fe1ab1f80fc56e7823a3b9b34b3)</message>
   <message>End Test Suite : Test Suites/New Test Suite Quria Search</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
 </log>

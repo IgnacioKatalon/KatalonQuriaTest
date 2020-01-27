@@ -1,76 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Resultater 55</name>
+   <name>span_El Quijote de Cervantes</name>
    <tag></tag>
-   <elementGuidId>8916d884-33bc-4af8-81d5-db7195454df8</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <elementGuidId>de5aa9e4-f107-43d8-9f4d-aae8c8b318e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-if</name>
+      <name>ng-bind</name>
       <type>Main</type>
-      <value>ctx.state.SearchResult.TotalHits &lt;= 1000 &amp;&amp; (ctx.state.Query === ctx.state.SearchResult.Query)</value>
+      <value>ctx.state.WorkTranslated.TitleTranslated.Title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-binding ng-scope</value>
+      <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-          Resultater: 55 
-        </value>
+      <value>El Quijote de Cervantes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ax-metadata-search ng-scope layout-row flex&quot;]/div[@class=&quot;ax-search flex&quot;]/div[@class=&quot;ax-search-results flex&quot;]/div[@class=&quot;ax-search-nbr-hits&quot;]/div[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-work-page ng-scope&quot;]/div[@class=&quot;work-info&quot;]/div[@class=&quot;title layout-align-space-between-start layout-row&quot;]/h1[1]/span[@class=&quot;ng-binding&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//md-content[@id='content']/div/div/div/div[2]/div/div</value>
+      <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legg til post'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='chevron_right'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importer post'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Neste'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postoversikt'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serie:'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/div/div[2]/div/div</value>
+      <value>//h1/span</value>
    </webElementXpaths>
 </WebElementEntity>

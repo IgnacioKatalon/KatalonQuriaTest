@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Simple Search -DataDrive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71f32e10-5287-453d-8221-292106fdcfef</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c7ac96e-df98-473c-b9b0-4dfbc6d29f17</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0dd7b8a5-7199-47e7-bbb8-8e988e1c0b2a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36b1179a-7860-4025-880c-c0938e66d2bd</id>
+      <masked>false</masked>
+      <name>searchterm</name>
+   </variable>
+</TestCaseEntity>

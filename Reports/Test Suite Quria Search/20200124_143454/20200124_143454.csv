@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search,Chrome 79.0.3945.130,,2020-01-24 14:34:58,2020-01-24 14:36:35,1m - 37.602s,FAILED
+,,,,,,
+Test Cases/Test Simple Search,Chrome 79.0.3945.130,,2020-01-24 14:34:58,2020-01-24 14:35:50,51.313s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,2020-01-24 14:34:59,2020-01-24 14:35:12,13.438s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 79.0.3945.130,,2020-01-24 14:35:12,2020-01-24 14:35:14,1.713s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 79.0.3945.130,,2020-01-24 14:35:14,2020-01-24 14:35:17,2.389s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 79.0.3945.130,,2020-01-24 14:35:17,2020-01-24 14:35:22,5.093s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.130,,2020-01-24 14:35:22,2020-01-24 14:35:24,2.178s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Chrome 79.0.3945.130,,2020-01-24 14:35:24,2020-01-24 14:35:26,2.225s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 79.0.3945.130,,2020-01-24 14:35:26,2020-01-24 14:35:29,3.230s,PASSED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 79.0.3945.130,,2020-01-24 14:35:29,2020-01-24 14:35:31,2.149s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Chrome 79.0.3945.130,,2020-01-24 14:35:31,2020-01-24 14:35:37,5.901s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",Chrome 79.0.3945.130,,2020-01-24 14:35:37,2020-01-24 14:35:42,4.206s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 79.0.3945.130,,2020-01-24 14:35:42,2020-01-24 14:35:44,2.124s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""), 30)",Chrome 79.0.3945.130,,2020-01-24 14:35:44,2020-01-24 14:35:46,2.040s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 79.0.3945.130,,2020-01-24 14:35:46,2020-01-24 14:35:48,2.099s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,2020-01-24 14:35:48,2020-01-24 14:35:50,1.694s,PASSED
+,,,,,,
+"Test Cases/Test Single Search hit, only one hit result",Chrome 79.0.3945.130,,2020-01-24 14:35:50,2020-01-24 14:36:34,44.001s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,2020-01-24 14:35:50,2020-01-24 14:35:58,7.918s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 79.0.3945.130,,2020-01-24 14:35:58,2020-01-24 14:35:59,1.468s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 79.0.3945.130,,2020-01-24 14:35:59,2020-01-24 14:36:02,2.348s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 79.0.3945.130,,2020-01-24 14:36:02,2020-01-24 14:36:06,4.560s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 79.0.3945.130,,2020-01-24 14:36:06,2020-01-24 14:36:08,2.231s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Chrome 79.0.3945.130,,2020-01-24 14:36:08,2020-01-24 14:36:10,2.041s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 79.0.3945.130,,2020-01-24 14:36:10,2020-01-24 14:36:14,3.151s,PASSED
+"click(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 79.0.3945.130,,2020-01-24 14:36:14,2020-01-24 14:36:16,2.135s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Chrome 79.0.3945.130,,2020-01-24 14:36:16,2020-01-24 14:36:21,5.710s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), ""Cervantes"")",Chrome 79.0.3945.130,,2020-01-24 14:36:21,2020-01-24 14:36:26,4.186s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 79.0.3945.130,,2020-01-24 14:36:26,2020-01-24 14:36:28,2.111s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""), 30)",Chrome 79.0.3945.130,,2020-01-24 14:36:28,2020-01-24 14:36:30,2.036s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 79.0.3945.130,,2020-01-24 14:36:30,2020-01-24 14:36:32,2.127s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,2020-01-24 14:36:32,2020-01-24 14:36:34,1.662s,PASSED
+,,,,,,
+Test Cases/Test turn off stop word,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.271s,FAILED
+acceptAlert(),Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.029s,FAILED
+,,,,,,
+Test Cases/Test verify free text search,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.220s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify Fuzzy search,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.261s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:34,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify phrase search,Chrome 79.0.3945.130,,2020-01-24 14:36:34,2020-01-24 14:36:35,0.249s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify scandinavian letters,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.270s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.001s,PASSED
+,,,,,,
+Test Cases/Test verify stop words,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.218s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.000s,PASSED
+,,,,,,
+Test Cases/Test verify truncation and masking,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.262s,PASSED
+return null,Chrome 79.0.3945.130,,2020-01-24 14:36:35,2020-01-24 14:36:35,0.001s,PASSED

@@ -35,15 +35,9 @@ WebUI.click(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/div_N
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon'))
 
 WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 
-    'Cervantes')
+    searchterm )
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
-
-//WebUI.waitForElementVisible(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/span_El Quijote de Cervantes'), 
- //   30)
-
-//WebUI.verifyElementText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/span_El Quijote de Cervantes'), 
-//    'El Quijote de Cervantes')
 
 WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'), 30)
 

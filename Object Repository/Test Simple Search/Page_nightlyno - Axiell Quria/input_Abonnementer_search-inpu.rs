@@ -6,6 +6,14 @@
    <elementGuidId>5c7f42b2-87f3-442d-b633-5f4f6eef3858</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'search-input' and @placeholder = 'Skriv inn søketekst' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='search-input']</value>
       </entry>
