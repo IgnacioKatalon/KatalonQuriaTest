@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

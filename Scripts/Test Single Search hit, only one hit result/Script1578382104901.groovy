@@ -40,11 +40,9 @@ WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyn
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
 
 //WebUI.waitForElementVisible(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/span_El Quijote de Cervantes'), 
- //   30)
-
+//   30)
 //WebUI.verifyElementText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/span_El Quijote de Cervantes'), 
 //    'El Quijote de Cervantes')
-
 WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'), 30)
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
