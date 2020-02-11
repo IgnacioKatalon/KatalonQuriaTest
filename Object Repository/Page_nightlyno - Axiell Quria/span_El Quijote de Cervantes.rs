@@ -6,15 +6,19 @@
    <elementGuidId>de5aa9e4-f107-43d8-9f4d-aae8c8b318e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-work-page ng-scope&quot;]/div[@class=&quot;work-info&quot;]/div[@class=&quot;title layout-align-space-between-start layout-row&quot;]/h1[1]/span[@class=&quot;ng-binding&quot;][count(. | //span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')]) = count(//span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,14 +42,14 @@
       <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>El Quijote de Cervantes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -73,7 +77,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postoversikt'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Om manifestasjonen'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,5 +90,11 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//h1/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postoversikt'])[1]/preceding::span[1]</value>
    </webElementXpaths>
 </WebElementEntity>

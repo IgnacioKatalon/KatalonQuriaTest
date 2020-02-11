@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Sign in with Google</name>
    <tag></tag>
-   <elementGuidId>dcad07b4-ee3d-4681-8270-0ee30d054f35</elementGuidId>
+   <elementGuidId>60f1f26d-73da-45e5-b6ea-33d01118da0d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'login-google-btn' and @href = '../content/index.html' and (text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
+         <value>//a[@id = 'login-google-btn' and @class = 'btn btn-primary btn-block' and (text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <value>login-google-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>../content/index.html</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

@@ -6,15 +6,15 @@
    <elementGuidId>098a3f01-208e-4d67-ad6b-311735827ef1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-work-page ng-scope&quot;]/div[@class=&quot;work-info&quot;]/div[@class=&quot;title layout-align-space-between-start layout-row&quot;]/h1[1]/span[@class=&quot;ng-binding&quot;][count(. | //span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')]) = count(//span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,14 +38,14 @@
       <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>El Quijote de Cervantes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

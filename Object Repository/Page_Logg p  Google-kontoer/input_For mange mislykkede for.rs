@@ -3,18 +3,14 @@
    <description></description>
    <name>input_For mange mislykkede for</name>
    <tag></tag>
-   <elementGuidId>0851e710-89c9-44c8-8736-b15436f02106</elementGuidId>
+   <elementGuidId>21074e9e-7615-48f0-a011-d29c3becb44d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='password']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'password' and @name = 'password']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -73,7 +69,7 @@
       <value>Skriv inn passordet ditt</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
