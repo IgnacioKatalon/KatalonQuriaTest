@@ -1,97 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign in with Google</name>
+   <name>div_Resultater 483</name>
    <tag></tag>
-   <elementGuidId>60f1f26d-73da-45e5-b6ea-33d01118da0d</elementGuidId>
+   <elementGuidId>0a14ff48-6234-4a34-899f-eff42e118bf4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@id = 'login-google-btn' and @class = 'btn btn-primary btn-block' and (text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login-google-btn']</value>
+         <key>BASIC</key>
+         <value>//div[@ng-if = 'ctx.state.SearchResult.TotalHits &lt;= 1000 &amp;&amp; (ctx.state.Query === ctx.state.SearchResult.Query)' and (text() = '
+          Resultater: 483 
+        ' or . = '
+          Resultater: 483 
+        ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>ng-if</name>
       <type>Main</type>
-      <value>login-google-btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>../content/index.html</value>
+      <value>ctx.state.SearchResult.TotalHits &lt;= 1000 &amp;&amp; (ctx.state.Query === ctx.state.SearchResult.Query)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
+      <value>ng-binding ng-scope</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign in with Google</value>
+      <value>
+          Resultater: 483 
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-google-btn&quot;)</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ax-metadata-search ng-scope layout-row flex&quot;]/div[@class=&quot;ax-search flex&quot;]/div[@class=&quot;ax-search-results flex&quot;]/div[@class=&quot;ax-search-nbr-hits&quot;]/div[@class=&quot;ng-binding ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//a[@id='login-google-btn']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Sign in with Google')]</value>
+      <name>xpath:idRelative</name>
+      <value>//md-content[@id='content']/div/div/div/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legg til verk'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'login-google-btn', '&quot;', ')')])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importer poster'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '../content/index.html')]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_drop_down'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//a</value>
+      <value>//div/div/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
