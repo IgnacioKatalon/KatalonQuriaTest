@@ -3,21 +3,14 @@
    <description></description>
    <name>input_Abonnementer_search-inpu</name>
    <tag></tag>
-   <elementGuidId>5c7f42b2-87f3-442d-b633-5f4f6eef3858</elementGuidId>
+   <elementGuidId>78f22700-62a5-4224-9990-ad5ecdea7ca1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@id = 'search-input' and @placeholder = 'Skriv inn søketekst' and @type = 'text']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='search-input']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +41,7 @@
       <value>search-input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -62,7 +55,7 @@
       <value>$ctrl.searchQuery</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -73,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ax-search-field ng-pristine ng-untouched ng-valid md-autofocus ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add</value>
+      <value>ax-search-field ng-pristine ng-untouched ng-valid md-autofocus ng-empty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,13 +74,6 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ng-animate</name>
-      <type>Main</type>
-      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,7 +116,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importer post'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importer poster'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Abonnementer_search-inpu</name>
+   <name>input_Abonnementer_search-inpu (2)</name>
    <tag></tag>
-   <elementGuidId>5c7f42b2-87f3-442d-b633-5f4f6eef3858</elementGuidId>
+   <elementGuidId>383464c4-f739-477c-a777-0901cba1a958</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@id = 'search-input' and @placeholder = 'Skriv inn søketekst' and @type = 'text']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='search-input']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

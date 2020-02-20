@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//md-sidenav[@id='left-column']/md-toolbar/ax-user-details/md-menu/div/div/md-icon</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//md-icon[(text() = 'expand_more' or . = 'expand_more')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

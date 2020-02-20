@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-icon</name>
+   <name>md-icon (1)</name>
    <tag></tag>
-   <elementGuidId>6e49128c-987b-4c14-8fe3-3459fa62a42d</elementGuidId>
+   <elementGuidId>a37773b2-2ebd-4949-b505-ad01b422f025</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='nav_module_id_collection']/span/md-icon</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

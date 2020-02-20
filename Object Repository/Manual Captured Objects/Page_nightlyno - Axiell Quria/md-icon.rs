@@ -3,18 +3,14 @@
    <description></description>
    <name>md-icon</name>
    <tag></tag>
-   <elementGuidId>6e49128c-987b-4c14-8fe3-3459fa62a42d</elementGuidId>
+   <elementGuidId>2a251756-37c2-409f-ba75-d85178c4e138</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='nav_module_id_collection']/span/md-icon</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
+      <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable ax-nav-current&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

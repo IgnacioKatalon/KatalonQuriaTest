@@ -6,12 +6,12 @@
    <elementGuidId>dcad07b4-ee3d-4681-8270-0ee30d054f35</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login-google-btn']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@id = 'login-google-btn' and @href = '../content/index.html' and (text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='login-google-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
