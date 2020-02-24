@@ -6,16 +6,16 @@
    <elementGuidId>0a14ff48-6234-4a34-899f-eff42e118bf4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[@ng-if = 'ctx.state.SearchResult.TotalHits &lt;= 1000 &amp;&amp; (ctx.state.Query === ctx.state.SearchResult.Query)' and (text() = '
           Resultater: 483 
         ' or . = '
           Resultater: 483 
         ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//md-content[@id='content']/div/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

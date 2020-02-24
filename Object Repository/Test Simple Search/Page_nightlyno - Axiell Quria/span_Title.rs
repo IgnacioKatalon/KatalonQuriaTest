@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_El Quijote de Cervantes</name>
+   <name>span_Title</name>
    <tag></tag>
-   <elementGuidId>de5aa9e4-f107-43d8-9f4d-aae8c8b318e6</elementGuidId>
+   <elementGuidId>098a3f01-208e-4d67-ad6b-311735827ef1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-work-page ng-scope&quot;]/div[@class=&quot;work-info&quot;]/div[@class=&quot;title layout-align-space-between-start layout-row&quot;]/h1[1]/span[@class=&quot;ng-binding&quot;][count(. | //span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')]) = count(//span[(text() = 'El Quijote de Cervantes' or . = 'El Quijote de Cervantes')])]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//md-content[@id='content']/div/div/div[2]/div/div/h1/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -77,7 +73,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Om manifestasjonen'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postoversikt'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,11 +86,5 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//h1/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postoversikt'])[1]/preceding::span[1]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -14,7 +14,7 @@
          <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

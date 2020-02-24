@@ -11,43 +11,37 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>31db0554-29be-4464-9f94-6452813a655a</testSuiteGuid>
    <testCaseLink>
-      <guid>8af87f55-065b-4c63-a3a7-e25d7f6131c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb6373ea-2b45-4410-af7f-c5ddf71357dd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>58ff374b-a5e0-4ae4-b052-0c5a17a3ee6f</guid>
+      <guid>6bccc315-e2ad-40b0-a510-f16656b2186b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Advanced Search Boolean Prefix cre NOT Prefix sub</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>529b7a6a-73f7-46ac-945b-fa051ed8a31f</guid>
+      <guid>193a48f3-92cd-4c71-81c5-fcfa51d97506</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Advanced Search Boolean Prefix cre</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8467a7b8-6a4f-401a-9564-9dffbb5e8c9e</guid>
+      <guid>9d9ce236-11d2-4a4c-8aeb-27d1a3aeaf4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub AND Prefix cre</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9280b96-c949-4ec0-979c-d8977795afbc</guid>
+      <guid>526ca47c-1c1d-4c5b-ade0-6d81baf48f1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bee121c5-04de-4952-a1c6-c3201e367ad1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub OR Prefix cre</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e809220c-e332-4c15-978e-989af4c2c229</guid>
+      <guid>556e820a-6d7f-4e15-bd54-70d9b3943e21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Advanced Search Boolean Prefix sub</testCaseId>

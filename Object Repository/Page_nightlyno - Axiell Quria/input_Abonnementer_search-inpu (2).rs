@@ -12,6 +12,10 @@
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'search-input' and @placeholder = 'Skriv inn søketekst' and @type = 'text']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

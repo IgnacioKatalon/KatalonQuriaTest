@@ -13,3 +13,40 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html')
+
+WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google'))
+
+WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'), 
+    'axiell.norge.quria@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
+
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 30)
+
+WebUI.setEncryptedText(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 'd097ITWPO7f2v9EptRJGCg==')
+
+WebUI.click(findTestObject('Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste'))
+
+WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon'))
+
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 
+    30)
+
+WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 
+    '"magiske fingeren"')
+
+WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1'))
+
+WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'))
+
+WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 3')
+
+WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+
+WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
+
+WebUI.closeBrowser()
+

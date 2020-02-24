@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test verify Fuzzy search (more tha 6 letters)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb10758c-3657-4978-9726-403d2ecb6635</testCaseGuid>
+</TestCaseEntity>

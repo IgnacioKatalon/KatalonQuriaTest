@@ -24,10 +24,10 @@ WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
 
-WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 
     30)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
+WebUI.setEncryptedText(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 
     'd097ITWPO7f2v9EptRJGCg==')
 
 WebUI.click(findTestObject('Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste'))
@@ -37,11 +37,15 @@ WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno 
 WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 
     'sub:romantikk OR cre:boge')
 
-WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1'))
 
-WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'), 30)
+WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'))
 
-WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
+WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 538')
+
+WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+
+WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
 
 WebUI.closeBrowser()
 

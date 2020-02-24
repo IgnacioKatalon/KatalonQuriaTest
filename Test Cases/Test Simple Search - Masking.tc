@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test verify Fuzzy search</name>
+   <name>Test Simple Search - Masking</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cb10758c-3657-4978-9726-403d2ecb6635</testCaseGuid>
+   <testCaseGuid>608868ee-a635-47eb-a4dd-5dabbad2192f</testCaseGuid>
 </TestCaseEntity>

@@ -24,10 +24,10 @@ WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
 
-WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
+WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 
     30)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for'), 
+WebUI.setEncryptedText(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 
     'd097ITWPO7f2v9EptRJGCg==')
 
 WebUI.click(findTestObject('Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste'))
@@ -36,6 +36,14 @@ WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno 
 
 WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 
     'cre:boge NOT sub:romantikk')
+
+WebUI.click(findTestObject('Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1'))
+
+WebUI.waitForElementVisible(findTestObject('Page_nightlyno - Axiell Quria/span_Title'), 30)
+
+WebUI.verifyElementText(findTestObject('Page_nightlyno - Axiell Quria/span_Title'), 'Entführung mit Jagdleopard')
+
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
 
