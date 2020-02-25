@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Search Unique Patron - Activ Loan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcefb0c7-edc6-49b6-a92e-3faa39b82f73</testCaseGuid>
+</TestCaseEntity>

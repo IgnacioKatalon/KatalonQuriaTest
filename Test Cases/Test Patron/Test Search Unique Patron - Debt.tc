@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Search Unique Patron - Debt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c67c7de0-a027-4c49-8f4a-c59ff0a41c32</testCaseGuid>
+</TestCaseEntity>
