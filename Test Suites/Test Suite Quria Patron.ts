@@ -40,4 +40,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Patron/Test Search Unique Patron - Activ Loan</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0563d3d7-9e46-4b94-a0ce-219bc631dd1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Patron/Test Search Unique Patron - Activ Reserved</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
