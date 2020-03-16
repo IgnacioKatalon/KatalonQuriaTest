@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/div_ResultaterPatron'))
 
-WebUI.verifyElementText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/div_ResultaterPatron'), 'Resultater: 3')
+WebUI.verifyElementText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/div_ResultaterPatron'), 'Resultater: 4')
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Logout and Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

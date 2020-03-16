@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Search Data Drive,Chrome 80.0.3987.122,,2020-03-03 10:48:51,2020-03-03 10:49:39,48.388s,PASSED
+,,,,,,
+Test Cases/Test Simple Search -DataDrive,Chrome 80.0.3987.122,,2020-03-03 10:48:51,2020-03-03 10:49:39,48.082s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.122,,2020-03-03 10:48:52,2020-03-03 10:49:03,10.828s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 80.0.3987.122,,2020-03-03 10:49:03,2020-03-03 10:49:04,1.457s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 80.0.3987.122,,2020-03-03 10:49:04,2020-03-03 10:49:06,2.447s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 80.0.3987.122,,2020-03-03 10:49:06,2020-03-03 10:49:11,4.617s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 80.0.3987.122,,2020-03-03 10:49:11,2020-03-03 10:49:13,2.241s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_Password""), 30)",Chrome 80.0.3987.122,,2020-03-03 10:49:13,2020-03-03 10:49:15,2.112s,PASSED
+"setEncryptedText(findTestObject(""Test Simple Search/Page_Logg p  Google-kontoer/input_Password""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 80.0.3987.122,,2020-03-03 10:49:15,2020-03-03 10:49:19,3.295s,PASSED
+"click(findTestObject(""Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 80.0.3987.122,,2020-03-03 10:49:19,2020-03-03 10:49:21,2.198s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon""))",Chrome 80.0.3987.122,,2020-03-03 10:49:21,2020-03-03 10:49:27,6.090s,PASSED
+"setText(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu""), searchterm)",Chrome 80.0.3987.122,,2020-03-03 10:49:27,2020-03-03 10:49:31,4.169s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more""))",Chrome 80.0.3987.122,,2020-03-03 10:49:31,2020-03-03 10:49:33,2.170s,PASSED
+"waitForElementVisible(findTestObject(""Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""), 30)",Chrome 80.0.3987.122,,2020-03-03 10:49:33,2020-03-03 10:49:35,2.081s,PASSED
+"click(findTestObject(""Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av""))",Chrome 80.0.3987.122,,2020-03-03 10:49:35,2020-03-03 10:49:38,2.155s,PASSED
+closeBrowser(),Chrome 80.0.3987.122,,2020-03-03 10:49:38,2020-03-03 10:49:39,1.725s,PASSED

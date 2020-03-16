@@ -39,7 +39,7 @@ WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria
 
 WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'))
 
-WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 41')
+WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 37')
 
 WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
 

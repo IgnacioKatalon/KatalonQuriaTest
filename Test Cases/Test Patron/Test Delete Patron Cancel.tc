@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Update Patron</name>
+   <name>Test Delete Patron Cancel</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f705a86a-af67-49eb-a4d9-d611850227dc</testCaseGuid>

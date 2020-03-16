@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Capture Object Patron Search/Page_
 
 WebUI.click(findTestObject('Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld'))
 
-WebUI.verifyElementText(findTestObject('Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld'), '-kr  47,00')
+WebUI.verifyElementText(findTestObject('Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld'), '-kr  54,00')
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron'))
 

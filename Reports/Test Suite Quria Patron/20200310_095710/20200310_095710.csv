@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Quria Patron,Chrome 80.0.3987.132,,2020-03-10 09:57:13,2020-03-10 10:03:43,6m - 30.219s,FAILED
+,,,,,,
+Test Cases/Test Patron/New Test Case Patron Object search,Chrome 80.0.3987.132,,2020-03-10 09:57:13,2020-03-10 09:58:16,1m - 3.237s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.132,,2020-03-10 09:57:13,2020-03-10 09:57:25,11.603s,PASSED
+"navigateToUrl(""https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html"")",Chrome 80.0.3987.132,,2020-03-10 09:57:25,2020-03-10 09:57:27,1.549s,PASSED
+"click(findTestObject(""Object Repository/Capture Object Patron Search/Page_Axiell Quria/a_Sign in with Google""))",Chrome 80.0.3987.132,,2020-03-10 09:57:27,2020-03-10 09:57:29,2.344s,PASSED
+"setText(findTestObject(""Object Repository/Capture Object Patron Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier""), ""axiell.norge.quria@gmail.com"")",Chrome 80.0.3987.132,,2020-03-10 09:57:29,2020-03-10 09:57:34,4.593s,PASSED
+"click(findTestObject(""Object Repository/Capture Object Patron Search/Page_Logg p  Google-kontoer/span_Neste""))",Chrome 80.0.3987.132,,2020-03-10 09:57:34,2020-03-10 09:57:36,2.287s,PASSED
+"waitForElementVisible(findTestObject(""Capture Object Patron Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), 30)",Chrome 80.0.3987.132,,2020-03-10 09:57:36,2020-03-10 09:57:38,2.090s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Capture Object Patron Search/Page_Logg p  Google-kontoer/input_For mange mislykkede for""), ""d097ITWPO7f2v9EptRJGCg=="")",Chrome 80.0.3987.132,,2020-03-10 09:57:38,2020-03-10 09:57:41,3.329s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_Logg p  Google-kontoer/div_Neste""))",Chrome 80.0.3987.132,,2020-03-10 09:57:41,2020-03-10 09:57:43,2.143s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 09:57:43,2020-03-10 09:57:49,6.053s,PASSED
+"setText(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera Picossi"")",Chrome 80.0.3987.132,,2020-03-10 09:57:49,2020-03-10 09:57:54,4.314s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 09:57:54,2020-03-10 09:57:56,2.153s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 09:57:56,2020-03-10 09:58:00,3.646s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/td_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 09:58:00,2020-03-10 09:58:02,2.088s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/h2_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 09:58:02,2020-03-10 09:58:04,2.110s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivLoan""))",Chrome 80.0.3987.132,,2020-03-10 09:58:04,2020-03-10 09:58:06,2.136s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/span_Reserveringer""))",Chrome 80.0.3987.132,,2020-03-10 09:58:06,2020-03-10 09:58:08,2.199s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_AktiveReserveringer""))",Chrome 80.0.3987.132,,2020-03-10 09:58:08,2020-03-10 09:58:10,2.113s,PASSED
+"click(findTestObject(""Object Repository/Capture Object Patron Search/Page_nightlyno - Axiell Quria/span_Gjeld og betalinger""))",Chrome 80.0.3987.132,,2020-03-10 09:58:10,2020-03-10 09:58:12,2.172s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld""))",Chrome 80.0.3987.132,,2020-03-10 09:58:12,2020-03-10 09:58:15,2.148s,PASSED
+closeBrowser(),Chrome 80.0.3987.132,,2020-03-10 09:58:15,2020-03-10 09:58:16,1.713s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Case Log in with correct Patron,Chrome 80.0.3987.132,,2020-03-10 09:58:16,2020-03-10 09:58:52,35.520s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 09:58:17,2020-03-10 09:58:43,26.750s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 09:58:43,2020-03-10 09:58:52,8.514s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Search Multiple Patron,Chrome 80.0.3987.132,,2020-03-10 09:58:52,2020-03-10 09:59:41,49.022s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 09:58:52,2020-03-10 09:59:18,26.105s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 09:59:18,2020-03-10 09:59:24,6.239s,PASSED
+"setText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera"")",Chrome 80.0.3987.132,,2020-03-10 09:59:24,2020-03-10 09:59:29,4.167s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 09:59:29,2020-03-10 09:59:31,2.074s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ResultaterPatron""))",Chrome 80.0.3987.132,,2020-03-10 09:59:31,2020-03-10 09:59:33,2.125s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ResultaterPatron""), ""Resultater: 4"")",Chrome 80.0.3987.132,,2020-03-10 09:59:33,2020-03-10 09:59:35,2.054s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 09:59:35,2020-03-10 09:59:41,5.995s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Search Unique Patron,Chrome 80.0.3987.132,,2020-03-10 09:59:41,2020-03-10 10:00:31,50.383s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 09:59:41,2020-03-10 10:00:07,26.030s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 10:00:07,2020-03-10 10:00:13,6.055s,PASSED
+"setText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera Picossi"")",Chrome 80.0.3987.132,,2020-03-10 10:00:13,2020-03-10 10:00:17,4.247s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 10:00:17,2020-03-10 10:00:20,2.141s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:00:20,2020-03-10 10:00:23,3.657s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName""), ""Tejera Picossi, Porfirio"")",Chrome 80.0.3987.132,,2020-03-10 10:00:23,2020-03-10 10:00:25,2.044s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:00:25,2020-03-10 10:00:31,5.936s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Search Unique Patron - Activ Loan,Chrome 80.0.3987.132,,2020-03-10 10:00:31,2020-03-10 10:01:30,58.914s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:00:32,2020-03-10 10:00:57,25.937s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 10:00:57,2020-03-10 10:01:03,6.031s,PASSED
+"setText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera Picossi"")",Chrome 80.0.3987.132,,2020-03-10 10:01:03,2020-03-10 10:01:08,4.287s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 10:01:08,2020-03-10 10:01:10,2.117s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:01:10,2020-03-10 10:01:14,3.702s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:01:14,2020-03-10 10:01:16,2.154s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/h2_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:01:16,2020-03-10 10:01:18,2.194s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""))",Chrome 80.0.3987.132,,2020-03-10 10:01:18,2020-03-10 10:01:20,2.125s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""), ""Utlånte eksemplarer (1)"")",Chrome 80.0.3987.132,,2020-03-10 10:01:20,2020-03-10 10:01:22,2.069s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:01:22,2020-03-10 10:01:24,2.077s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:01:24,2020-03-10 10:01:30,5.925s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Search Unique Patron - Activ Reserved,Chrome 80.0.3987.132,,2020-03-10 10:01:30,2020-03-10 10:02:35,1m - 4.429s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:01:30,2020-03-10 10:01:57,26.309s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 10:01:57,2020-03-10 10:02:03,6.068s,PASSED
+"setText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera Picossi"")",Chrome 80.0.3987.132,,2020-03-10 10:02:03,2020-03-10 10:02:07,4.245s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 10:02:07,2020-03-10 10:02:09,2.102s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:02:09,2020-03-10 10:02:12,2.609s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:02:12,2020-03-10 10:02:14,2.093s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/h2_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:02:14,2020-03-10 10:02:16,2.346s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""))",Chrome 80.0.3987.132,,2020-03-10 10:02:16,2020-03-10 10:02:18,2.071s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""), ""Utlånte eksemplarer (1)"")",Chrome 80.0.3987.132,,2020-03-10 10:02:18,2020-03-10 10:02:20,2.031s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/span_Reserveringer""))",Chrome 80.0.3987.132,,2020-03-10 10:02:20,2020-03-10 10:02:22,2.113s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_AktiveReserveringer""))",Chrome 80.0.3987.132,,2020-03-10 10:02:22,2020-03-10 10:02:24,2.065s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_AktiveReserveringer""), ""Aktive reserveringer (1)"")",Chrome 80.0.3987.132,,2020-03-10 10:02:24,2020-03-10 10:02:27,2.046s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:02:27,2020-03-10 10:02:29,2.083s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:02:29,2020-03-10 10:02:35,5.963s,PASSED
+,,,,,,
+Test Cases/Test Patron/Test Search Unique Patron - Debt,Chrome 80.0.3987.132,,2020-03-10 10:02:35,2020-03-10 10:03:43,1m - 8.319s,FAILED
+"callTestCase(findTestCase(""Test Patron/Test Case Login""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:02:35,2020-03-10 10:03:01,26.062s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron""))",Chrome 80.0.3987.132,,2020-03-10 10:03:01,2020-03-10 10:03:07,6.247s,PASSED
+"setText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron""), ""Tejera Picossi"")",Chrome 80.0.3987.132,,2020-03-10 10:03:07,2020-03-10 10:03:11,4.257s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron""))",Chrome 80.0.3987.132,,2020-03-10 10:03:11,2020-03-10 10:03:14,2.128s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:03:14,2020-03-10 10:03:17,3.595s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:03:17,2020-03-10 10:03:19,2.097s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/h2_PatronName""))",Chrome 80.0.3987.132,,2020-03-10 10:03:19,2020-03-10 10:03:23,3.627s,PASSED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""))",Chrome 80.0.3987.132,,2020-03-10 10:03:23,2020-03-10 10:03:25,2.143s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/div_ActivLoan""), ""Utlånte eksemplarer (1)"")",Chrome 80.0.3987.132,,2020-03-10 10:03:25,2020-03-10 10:03:27,2.067s,PASSED
+"click(findTestObject(""Object Repository/Capture Object Patron Search/Page_nightlyno - Axiell Quria/span_Gjeld og betalinger""))",Chrome 80.0.3987.132,,2020-03-10 10:03:27,2020-03-10 10:03:29,2.162s,PASSED
+"click(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld""))",Chrome 80.0.3987.132,,2020-03-10 10:03:29,2020-03-10 10:03:31,2.084s,PASSED
+"verifyElementText(findTestObject(""Capture Object Patron Search/Page_nightlyno - Axiell Quria/div_ActivGjeld""), ""-kr  47,00"")",Chrome 80.0.3987.132,,2020-03-10 10:03:31,2020-03-10 10:03:35,3.466s,FAILED
+"click(findTestObject(""Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron""))",Chrome 80.0.3987.132,,2020-03-10 10:03:35,2020-03-10 10:03:37,2.077s,PASSED
+"callTestCase(findTestCase(""Test Patron/Test Case Logout and Close Browser""), [:], STOP_ON_FAILURE)",Chrome 80.0.3987.132,,2020-03-10 10:03:37,2020-03-10 10:03:43,6.043s,FAILED

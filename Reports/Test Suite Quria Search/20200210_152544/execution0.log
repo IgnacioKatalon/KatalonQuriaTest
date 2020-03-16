@@ -2108,3 +2108,5 @@
   <property name="startLine">45</property>
   <property name="stepIndex">13</property>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+</log>
