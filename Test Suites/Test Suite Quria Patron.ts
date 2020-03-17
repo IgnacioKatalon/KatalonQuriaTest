@@ -52,4 +52,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Patron/Test Search Unique Patron - Debt</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8d684d3f-5dae-41a3-becf-c03e8a5445a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Patron/Test Create Patron OK</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d453f10-0bba-4e03-9912-38d2e8f6cfd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Patron/Test Delete Patron OK</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
