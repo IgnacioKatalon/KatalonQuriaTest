@@ -27,8 +27,6 @@ WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Etternavn_ctx.
 
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Fdselsdato_input_78'), '12.08.1961')
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Drammen Branch1'))
-
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Adresselinje 1_ctx.state (1)'), 'Brynsveien 128')
 
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Telefonnummer_ctx.state.'), '41428685')
@@ -38,8 +36,6 @@ WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_E-post_ctx.sta
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Postkode_ctx.state.PostC (1)'), '1352')
 
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_By_ctx.state.Town (1)'), 'Kolsås')
-
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Norge (1)'))
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/button_Avbryt'))
 

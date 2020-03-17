@@ -17,9 +17,30 @@ WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHand
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron'))
 
-WebUI.setText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron'), 'Automatic Test')
+WebUI.setText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron'), '29072633383')
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron'))
 
-WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron'))
+//WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron'))
+//WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/md-icon'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/md-tab-item_Lneropplysninger'), 
+    30)
+
+WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/md-tab-item_Lneropplysninger'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/span_Slett lner'), 
+    30)
+
+WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/span_Slett lner'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/button_Slett lner'), 
+    30)
+
+WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/button_Slett lner'))
+
+WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+
+WebUI.click(findTestObject('Object Repository/Page_nightlyno - Axiell Quria/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
+
+WebUI.closeBrowser()
 
