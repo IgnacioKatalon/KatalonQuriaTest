@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-initial-value</name>
       <type>Main</type>
-      <value>q</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

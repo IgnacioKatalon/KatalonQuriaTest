@@ -122,14 +122,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ctx.state.AddressLine1</value>
+      <value>ctx.state.AddressLine10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-scope md-input ng-empty ng-valid-maxlength spl-valid</value>
+      <value>ng-pristine ng-untouched ng-valid ng-scope md-input ng-not-empty ng-valid-maxlength spl-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -150,10 +150,52 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctx.state.AddressLine1&quot;)</value>
+      <value>id(&quot;tab-content-74&quot;)/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ax-edit-patron-data ax-layout-nesting-fix ax-contextual-shortcut__exclude ng-scope layout-gt-md-row layout-column&quot;]/div[@class=&quot;layout-column flex-gt-md-70&quot;]/md-card[@class=&quot;ax-card-white _md  ax-edit-patron-contact edit&quot;]/md-card-content[1]/div[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-flex-row layout-wrap layout-gt-sm-row layout-column&quot;]/div[@class=&quot;ax-margin-bottom-20 ng-scope flex-gt-sm-50&quot;]/md-radio-group[@class=&quot;ng-pristine ng-untouched ng-valid _md ng-not-empty&quot;]/div[@class=&quot;ng-scope&quot;]/ax-input[@id=&quot;ctx.state.AddressLine10&quot;]/md-input-container[@class=&quot;ng-scope md-input-has-placeholder md-input-has-value md-input-focused&quot;]/input[@id=&quot;ctx.state.AddressLine10&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@id='ctx.state.AddressLine10']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//ax-input[@id='ctx.state.AddressLine10']/md-input-container/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 1'])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='delete'])[3]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 2'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='c/o'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div/md-radio-group/div/ax-input/md-input-container/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <value>//input[@id='ctx.state.AddressLine1']</value>
@@ -168,25 +210,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 1'])[1]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresse'])[2]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 2'])[1]/preceding::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='c/o'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

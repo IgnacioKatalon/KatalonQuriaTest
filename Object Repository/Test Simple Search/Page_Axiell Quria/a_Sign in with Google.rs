@@ -3,18 +3,18 @@
    <description></description>
    <name>a_Sign in with Google</name>
    <tag></tag>
-   <elementGuidId>dcad07b4-ee3d-4681-8270-0ee30d054f35</elementGuidId>
+   <elementGuidId>63b796d8-5bbe-4aa6-a305-ae083a417bad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'login-google-btn' and @href = '../content/index.html' and (text() = 'Sign in with Google' or . = 'Sign in with Google')]</value>
+         <value>//a[@id = 'login-btn-google']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='login-google-btn']</value>
+         <value>//a[@id='login-btn-google']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-google-btn</value>
+      <value>login-btn-google</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>../content/index.html</value>
+      <value>../content/index.html?oicProvider=google</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <value>btn btn-primary btn-block</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -56,13 +56,19 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-google-btn&quot;)</value>
+      <value>id(&quot;login-btn-google&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//a[@id='login-google-btn']</value>
+      <value>//a[@id='login-btn-google']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='choose-provider']/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,19 +80,19 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in with Azure'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'login-google-btn', '&quot;', ')')])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'login-btn-google', '&quot;', ')')])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '../content/index.html')]</value>
+      <value>//a[contains(@href, '../content/index.html?oicProvider=google')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

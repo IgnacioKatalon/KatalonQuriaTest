@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://nightlyno.quriaint.axiell.com')
 
-WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google'))
+WebUI.click(findTestObject('Test Simple Search/Page_Axiell Quria/a_Sign in with Google'))
 
 WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'), 
     'axiell.norge.quria@gmail.com')

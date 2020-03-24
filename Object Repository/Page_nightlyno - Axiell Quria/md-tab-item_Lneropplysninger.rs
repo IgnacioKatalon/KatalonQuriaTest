@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tab-item-265</value>
+      <value>tab-item-74</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>md-tab-id</name>
       <type>Main</type>
-      <value>265</value>
+      <value>74</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>tab-content-265</value>
+      <value>tab-content-74</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,13 +157,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-item-265&quot;)</value>
+      <value>id(&quot;tab-item-74&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//md-tab-item[@id='tab-item-265']</value>
+      <value>//md-tab-item[@id='tab-item-74']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -200,5 +200,11 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//md-tab-item[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//md-tab-item[@id='tab-item-265']</value>
    </webElementXpaths>
 </WebElementEntity>
