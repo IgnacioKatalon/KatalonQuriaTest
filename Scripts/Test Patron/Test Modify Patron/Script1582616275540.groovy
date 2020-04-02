@@ -29,7 +29,11 @@ WebUI.waitForElementVisible(findTestObject('Page_nightlyno - Axiell Quria/md-ico
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_Kontaktinformasjon_ng-'))
 
+WebUI.waitForElementVisible(findTestObject('Page_nightlyno - Axiell Quria/input_Adresselinje 1_ctx.state'), 30)
+
 WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Adresselinje 1_ctx.state'), 'Brynsveien 130')
+
+WebUI.waitForElementVisible(findTestObject('Page_nightlyno - Axiell Quria/button_Lagre'), 30)
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/button_Lagre'))
 

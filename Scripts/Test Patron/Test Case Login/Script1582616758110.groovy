@@ -19,14 +19,13 @@ WebUI.navigateToUrl('https://nightlyno.quriaint.axiell.com')
 
 WebUI.click(findTestObject('Test Simple Search/Page_Axiell Quria/a_Sign in with Google'))
 
-WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'), 
-    'axiell.norge.quria@gmail.com')
+WebUI.setText(findTestObject('Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'), 'axiell.norge.quria@gmail.com')
 
 WebUI.click(findTestObject('Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste'))
 
-WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 30)
+WebUI.waitForElementVisible(findTestObject('Capture Object Patron/Page_Axiell Quria/input_Password'), 30)
 
-WebUI.setEncryptedText(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 'd097ITWPO7f2v9EptRJGCg==')
+WebUI.setEncryptedText(findTestObject('Capture Object Patron/Page_Axiell Quria/input_Password'), 'd097ITWPO7f2v9EptRJGCg==')
 
 WebUI.click(findTestObject('Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste'))
 

@@ -65,6 +65,12 @@
       <testCaseId>Test Cases/Test Patron/Test Create Patron OK</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a99fde68-422e-4fe1-a185-b467ea768efb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Patron/Test Modify Patron</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b760ae24-abb1-401b-ad85-905d383844b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

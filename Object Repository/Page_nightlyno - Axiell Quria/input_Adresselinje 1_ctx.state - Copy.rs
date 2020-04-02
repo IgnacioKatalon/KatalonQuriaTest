@@ -1,214 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-tab-item_Lneropplysninger</name>
+   <name>input_Adresselinje 1_ctx.state - Copy</name>
    <tag></tag>
-   <elementGuidId>5589d47a-713b-4577-b675-e92a1c683f60</elementGuidId>
+   <elementGuidId>4787216a-f811-49ea-a8ba-df7a3b26e4f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-tab-item[@id='tab-item-265']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//md-tab-item[@id = 'tab-item-74' and (text() = 'Låneropplysninger' or . = 'Låneropplysninger')]</value>
+         <value>//input[@id='ctx.state.AddressLine10']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>md-tab-item</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>ng-if</name>
       <type>Main</type>
-      <value>-1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>md-tab </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-repeat</name>
-      <type>Main</type>
-      <value>tab in $mdTabsCtrl.tabs</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>tab-item-74</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-tab-id</name>
-      <type>Main</type>
-      <value>74</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.select(tab.getIndex())</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.hasFocus = true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.hasFocus = false</value>
+      <value>!$ctrl.axAutocompleteModelValue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-class</name>
       <type>Main</type>
-      <value>{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }</value>
+      <value>{'ng-invalid' : $ctrl.localerrors.length > 0, 'ax-input--info': $ctrl.localinfo.length > 0}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>prevent-submit</name>
+      <type>Main</type>
+      <value>$ctrl.preventSubmit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>update-on-enter</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.localmodel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model-options</name>
+      <type>Main</type>
+      <value>$ctrl.axModelOptions ? $ctrl.axModelOptions : { debounce: 400 }</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spl-field</name>
+      <type>Main</type>
+      <value>ctx.state.AddressLine1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctx.state.AddressLine1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-disabled</name>
       <type>Main</type>
-      <value>tab.scope.disabled</value>
+      <value>$ctrl.axDisabled</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-swipe-left</name>
+      <name>ng-blur</name>
       <type>Main</type>
-      <value>$mdTabsCtrl.nextPage()</value>
+      <value>$ctrl.showErrorMessage = true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-swipe-right</name>
+      <name>ng-keypress</name>
       <type>Main</type>
-      <value>$mdTabsCtrl.previousPage()</value>
+      <value>$ctrl.showErrorMessage = ($event.which === $ctrl.enterKeyCode)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-tabs-template</name>
+      <name>ng-attr-md-autofocus</name>
       <type>Main</type>
-      <value>::tab.label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-scope</name>
-      <type>Main</type>
-      <value>::tab.parent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>tab-content-74</value>
+      <value>{{ $ctrl.setAutoFocus }}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Låneropplysninger</value>
+      <value>ctx.state.AddressLine10</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-scope md-input ng-not-empty ng-valid-maxlength spl-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-autofocus</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-item-74&quot;)</value>
+      <value>id(&quot;tab-content-74&quot;)/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ax-edit-patron-data ax-layout-nesting-fix ax-contextual-shortcut__exclude ng-scope layout-gt-md-row layout-column&quot;]/div[@class=&quot;layout-column flex-gt-md-70&quot;]/md-card[@class=&quot;ax-card-white _md  ax-edit-patron-contact edit&quot;]/md-card-content[1]/div[@class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-flex-row layout-wrap layout-gt-sm-row layout-column&quot;]/div[@class=&quot;ax-margin-bottom-20 ng-scope flex-gt-sm-50&quot;]/md-radio-group[@class=&quot;ng-pristine ng-untouched ng-valid _md ng-not-empty&quot;]/div[@class=&quot;ng-scope&quot;]/ax-input[@id=&quot;ctx.state.AddressLine10&quot;]/md-input-container[@class=&quot;ng-scope md-input-has-placeholder md-input-has-value md-input-focused&quot;]/input[@id=&quot;ctx.state.AddressLine10&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//md-tab-item[@id='tab-item-74']</value>
+      <value>//input[@id='ctx.state.AddressLine10']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//md-dialog[@id='dialogContent_70']/ng-include/div/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[4]</value>
+      <value>//ax-input[@id='ctx.state.AddressLine10']/md-input-container/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gjeld og betalinger'])[1]/following::md-tab-item[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 1'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserveringer (0)'])[1]/following::md-tab-item[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='delete'])[3]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Utlån (0)'])[2]/preceding::md-tab-item[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresselinje 2'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserveringer (0)'])[2]/preceding::md-tab-item[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='c/o'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//md-tab-item[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//md-tab-item[@id='tab-item-265']</value>
+      <value>//div[3]/div/md-radio-group/div/ax-input/md-input-container/input</value>
    </webElementXpaths>
 </WebElementEntity>

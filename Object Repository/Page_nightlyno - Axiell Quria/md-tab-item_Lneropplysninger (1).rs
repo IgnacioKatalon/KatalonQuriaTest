@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//md-tab-item[@id='tab-item-265']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//md-tab-item[@id = 'tab-item-265']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

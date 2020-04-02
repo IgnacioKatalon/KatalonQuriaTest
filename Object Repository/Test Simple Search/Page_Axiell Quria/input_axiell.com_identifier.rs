@@ -1,214 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-tab-item_Lneropplysninger</name>
+   <name>input_axiell.com_identifier</name>
    <tag></tag>
-   <elementGuidId>5589d47a-713b-4577-b675-e92a1c683f60</elementGuidId>
+   <elementGuidId>3c312a00-05ec-4956-a07f-c63f1b4fb4c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-tab-item[@id='tab-item-265']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//md-tab-item[@id = 'tab-item-74' and (text() = 'Låneropplysninger' or . = 'Låneropplysninger')]</value>
+         <value>//input[@id='identifierId']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>md-tab-item</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>type</name>
       <type>Main</type>
-      <value>-1</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md-tab </value>
+      <value>whsOnd zHQkBf</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-repeat</name>
+      <name>jsname</name>
       <type>Main</type>
-      <value>tab in $mdTabsCtrl.tabs</value>
+      <value>YPqjbf</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>tab</value>
+      <value>username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>E-post eller telefon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>identifier</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocapitalize</name>
+      <type>Main</type>
+      <value>none</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tab-item-74</value>
+      <value>identifierId</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-tab-id</name>
+      <name>dir</name>
       <type>Main</type>
-      <value>74</value>
+      <value>ltr</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
+      <name>data-initial-dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-initial-value</name>
+      <type>Main</type>
+      <value>axiell.norge.quria@gmail.com</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>badinput</name>
       <type>Main</type>
       <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.select(tab.getIndex())</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.hasFocus = true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.hasFocus = false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-class</name>
-      <type>Main</type>
-      <value>{ 'md-active':    tab.isActive(), 'md-focused':   tab.hasFocus(), 'md-disabled':  tab.scope.disabled }</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-disabled</name>
-      <type>Main</type>
-      <value>tab.scope.disabled</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-swipe-left</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.nextPage()</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-swipe-right</name>
-      <type>Main</type>
-      <value>$mdTabsCtrl.previousPage()</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-tabs-template</name>
-      <type>Main</type>
-      <value>::tab.label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>md-scope</name>
-      <type>Main</type>
-      <value>::tab.parent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>tab-content-74</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Låneropplysninger</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-item-74&quot;)</value>
+      <value>id(&quot;identifierId&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//md-tab-item[@id='tab-item-74']</value>
+      <value>//input[@id='identifierId']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//md-dialog[@id='dialogContent_70']/ng-include/div/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[4]</value>
+      <value>//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gjeld og betalinger'])[1]/following::md-tab-item[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='axiell.com'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserveringer (0)'])[1]/following::md-tab-item[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Har du glemt e-postadressen din?'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Utlån (0)'])[2]/preceding::md-tab-item[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserveringer (0)'])[2]/preceding::md-tab-item[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Neste'])[1]/preceding::input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//md-tab-item[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//md-tab-item[@id='tab-item-265']</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>

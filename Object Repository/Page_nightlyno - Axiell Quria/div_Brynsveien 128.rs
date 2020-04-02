@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Neste</name>
+   <name>div_Brynsveien 128</name>
    <tag></tag>
-   <elementGuidId>973b8ae2-fe85-4a7d-9dc0-a7ba9eae87d9</elementGuidId>
+   <elementGuidId>5ec25658-84d2-4b27-a38a-919cd02b6390</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='view_container']/div/div/div[2]/div/div[2]/div/div</value>
+         <value>//md-tab-content[@id='tab-content-34']/div/div[2]/div/md-card[3]/md-card-content/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,59 +26,65 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>ng-bind</name>
       <type>Main</type>
-      <value>qhFLie</value>
+      <value>postAddress.AddressLine1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>jsname</name>
+      <name>class</name>
       <type>Main</type>
-      <value>k77Iif</value>
+      <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Neste</value>
+      <value>Brynsveien 128</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;view_container&quot;)/div[@class=&quot;zWl5kd&quot;]/div[@class=&quot;DRS7Fe bxPAYd k6Zj8d&quot;]/div[@class=&quot;pwWryf bxPAYd&quot;]/div[@class=&quot;Wxwduf Us7fWe JhUD8d&quot;]/div[@class=&quot;zQJV3&quot;]/div[@class=&quot;dG5hZc&quot;]/div[@class=&quot;qhFLie&quot;]</value>
+      <value>id(&quot;tab-content-34&quot;)/div[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ax-edit-patron-data ax-layout-nesting-fix ax-contextual-shortcut__exclude ng-scope layout-gt-md-row layout-column&quot;]/div[@class=&quot;layout-column flex-gt-md-70&quot;]/md-card[@class=&quot;ax-card-white _md  ax-edit-patron-contact&quot;]/md-card-content[1]/div[@class=&quot;ax-flex-row layout-wrap ng-scope layout-gt-sm-row layout-column&quot;]/div[@class=&quot;ax-margin-bottom-20 ng-scope flex-gt-sm-50&quot;]/div[@class=&quot;ng-binding&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='view_container']/div/div/div[2]/div/div[2]/div/div</value>
+      <value>//md-tab-content[@id='tab-content-34']/div/div[2]/div/md-card[3]/md-card-content/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='For mange mislykkede forsøk'])[1]/following::div[41]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primæradresse'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='axiell.norge.quria@gmail.com'])[1]/following::div[45]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adresser'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Har du glemt passordet?'])[1]/preceding::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kolsås'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medlemskap'])[1]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div[2]/div/div</value>
+      <value>//md-card-content/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
