@@ -13,22 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/public/index.html')
-
-WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google'))
-
-WebUI.setText(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/input_axiell.com_identifier'), 
-    'axiell.norge.quria@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_Logg p  Google-kontoer/span_Neste'))
-
-WebUI.waitForElementVisible(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 30)
-
-WebUI.setEncryptedText(findTestObject('Test Simple Search/Page_Logg p  Google-kontoer/input_Password'), 'd097ITWPO7f2v9EptRJGCg==')
-
-WebUI.click(findTestObject('Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste'))
+WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon'))
 
@@ -39,11 +24,11 @@ WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria
 
 WebUI.click(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'))
 
-WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 124')
+WebUI.verifyElementText(findTestObject('test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater'), 'Resultater: 125')
 
-WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
+WebUI.click(findTestObject('Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more'))
 
-WebUI.click(findTestObject('Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
+WebUI.click(findTestObject('Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av'))
 
 WebUI.closeBrowser()
 

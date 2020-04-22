@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Quria Advanced Search" time="371" tests="5" failures="1" errors="0">
+   <testsuite name="Test Quria Advanced Search" tests="5" failures="1" errors="0" time="371" timestamp="2020-04-22 17:30:51" hostname="ignacio - BIBITS-IGNACIO2.bibsent.no" id="Test Suites/Test Quria Advanced Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Quria Advanced Search\\20200422_173048"/>
+         <property name="logFiles" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Quria Advanced Search\\20200422_173048\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Quria Advanced Search\\20200422_173048\\1587569814764.png"/>
+         <property name="hostName" value="ignacio - BIBITS-IGNACIO2.bibsent.no"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="10.81.1.185"/>
+         <property name="sessionId" value="1238652c9d27c4813e3da17ce4761ea5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix cre NOT Prefix sub" classname="Test Cases/Test Advanced Search Boolean Prefix cre NOT Prefix sub" status="PASSED">
+         <system-out><![CDATA[2020-04-22 17:30:51 - [TEST_CASE][PASSED] - Test Cases/Test Advanced Search Boolean Prefix cre NOT Prefix sub: Test Cases/Test Advanced Search Boolean Prefix cre NOT Prefix sub
+
+2020-04-22 17:30:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:30:52 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:30:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:30:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:30:52 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-04-22 17:31:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:31:04 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:31:06 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:31:15 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:31:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:31:20 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:31:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:31:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:31:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "cre:boge NOT sub:romantikk"): Text 'cre:boge NOT sub:romantikk' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:31:45 - [MESSAGE][PASSED] - Text 'cre:boge NOT sub:romantikk' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:31:47 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:31:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 0"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:31:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:31:51 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2020-04-22 17:31:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-22 17:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:31:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-22 17:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-22 17:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:31:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-22 17:32:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix cre" classname="Test Cases/Test Advanced Search Boolean Prefix cre" status="PASSED">
+         <system-out><![CDATA[2020-04-22 17:32:01 - [TEST_CASE][PASSED] - Test Cases/Test Advanced Search Boolean Prefix cre: Test Cases/Test Advanced Search Boolean Prefix cre
+
+2020-04-22 17:32:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:32:01 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:32:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:32:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:32:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:32:09 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:32:11 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:32:15 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:32:20 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:32:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:32:24 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:32:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:32:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:32:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:32:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Cre:boge"): Text 'Cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:32:47 - [MESSAGE][PASSED] - Text 'Cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:32:47 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:32:49 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:32:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 54"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:32:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:32:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-22 17:32:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix sub AND Prefix cre" classname="Test Cases/Test Advanced Search Boolean Prefix sub AND Prefix cre" status="PASSED">
+         <system-out><![CDATA[2020-04-22 17:32:59 - [TEST_CASE][PASSED] - Test Cases/Test Advanced Search Boolean Prefix sub AND Prefix cre: Test Cases/Test Advanced Search Boolean Prefix sub AND Prefix cre
+
+2020-04-22 17:32:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:32:59 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:32:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:32:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:33:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:33:07 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:33:09 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:33:19 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:33:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:33:23 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:33:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:33:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:33:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "sub:romantikk AND cre:boge"): Text 'sub:romantikk AND cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:33:48 - [MESSAGE][PASSED] - Text 'sub:romantikk AND cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:33:48 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:33:51 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:33:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 54"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:33:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:33:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:33:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-22 17:34:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre" classname="Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre" status="PASSED">
+         <system-out><![CDATA[2020-04-22 17:34:01 - [TEST_CASE][PASSED] - Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre: Test Cases/Test Advanced Search Boolean Prefix sub NOT Prefix cre
+
+2020-04-22 17:34:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:34:01 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:34:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:34:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:34:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:34:09 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:34:11 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:34:19 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:34:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:34:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:34:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:34:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "sub:romantikk NOT cre:boge"): Text 'sub:romantikk NOT cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:34:49 - [MESSAGE][PASSED] - Text 'sub:romantikk NOT cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:34:49 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:34:51 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:34:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 484"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:34:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:34:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:34:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-22 17:35:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix sub OR Prefix cre" classname="Test Cases/Test Advanced Search Boolean Prefix sub OR Prefix cre" status="PASSED">
+         <system-out><![CDATA[2020-04-22 17:35:01 - [TEST_CASE][PASSED] - Test Cases/Test Advanced Search Boolean Prefix sub OR Prefix cre: Test Cases/Test Advanced Search Boolean Prefix sub OR Prefix cre
+
+2020-04-22 17:35:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:35:01 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:35:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:35:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:35:09 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:35:11 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:35:15 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:35:19 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:35:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:35:24 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:35:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:35:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:35:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "sub:romantikk OR cre:boge"): Text 'sub:romantikk OR cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:35:50 - [MESSAGE][PASSED] - Text 'sub:romantikk OR cre:boge' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:35:50 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:35:53 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:35:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 538"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:35:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-22 17:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:36:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-22 17:36:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Advanced Search Boolean Prefix sub" classname="Test Cases/Test Advanced Search Boolean Prefix sub" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Advanced Search Boolean Prefix sub FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)
+"/>
+         <system-out><![CDATA[2020-04-22 17:36:03 - [TEST_CASE][FAILED] - Test Cases/Test Advanced Search Boolean Prefix sub: Test Cases/Test Advanced Search Boolean Prefix sub FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)
+
+
+2020-04-22 17:36:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:36:03 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-22 17:36:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-22 17:36:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-22 17:36:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-22 17:36:11 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:36:13 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-22 17:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-22 17:36:17 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:36:21 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-22 17:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-22 17:36:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-22 17:36:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:36:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-22 17:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-22 17:36:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-22 17:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-22 17:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "sub:romantikk"): Text 'sub:romantikk' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:36:48 - [MESSAGE][PASSED] - Text 'sub:romantikk' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-22 17:36:48 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-22 17:36:50 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-22 17:36:52 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 537"): Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+
+2020-04-22 17:36:56 - [MESSAGE][FAILED] - Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+[[ATTACHMENT|C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Quria Advanced Search\\20200422_173048\\1587569814764.png]]
+
+2020-04-22 17:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-22 17:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-22 17:37:00 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)
+
+
+2020-04-22 17:37:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-22 17:37:02 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-04-22 17:36:03 - [TEST_CASE][FAILED] - Test Cases/Test Advanced Search Boolean Prefix sub: Test Cases/Test Advanced Search Boolean Prefix sub FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-22 17:30:51 - [TEST_SUITE][FAILED] - Test Quria Advanced Search: Test Cases/Test Advanced Search Boolean Prefix sub FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-04-22 17:30:51 - [TEST_SUITE][FAILED] - Test Quria Advanced Search: Test Cases/Test Advanced Search Boolean Prefix sub FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Resultater: 538' and expected text 'Resultater: 537' of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Test Advanced Search Boolean Prefix sub.run(Test Advanced Search Boolean Prefix sub:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1587569448875.run(TempTestSuite1587569448875.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
