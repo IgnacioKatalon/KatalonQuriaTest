@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Quria Search" time="1110" tests="15" failures="0" errors="0">
+   <testsuite name="Test Suite Quria Search" tests="15" failures="0" errors="0" time="1110" timestamp="2020-04-23 14:22:57" hostname="ignacio - BIBITS-IGNACIO2.bibsent.no" id="Test Suites/Test Suite Quria Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Suite Quria Search\\20200423_142251"/>
+         <property name="logFiles" value="C:\\Users\\ignacio\\Katalon Studio\\KatalonQuriaTest\\Reports\\Test Suite Quria Search\\20200423_142251\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ignacio - BIBITS-IGNACIO2.bibsent.no"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="10.81.1.185"/>
+         <property name="sessionId" value="7db94c8f97b546d524f1f697286f7546"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Simple Search" classname="Test Cases/Test Simple Search" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:22:58 - [TEST_CASE][PASSED] - Test Cases/Test Simple Search: Test Cases/Test Simple Search
+
+2020-04-23 14:23:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:23:01 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:23:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:23:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:23:03 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-04-23 14:23:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:23:21 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:23:24 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:23:30 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:23:34 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:23:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:23:39 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:23:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:23:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:23:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:23:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:24:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:24:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Quria"): Text 'Quria' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:24:09 - [MESSAGE][PASSED] - Text 'Quria' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:24:09 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:24:11 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:24:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 2"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:24:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:24:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:24:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Simple Search - Facet" classname="Test Cases/Test Simple Search - Facet" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:24:22 - [TEST_CASE][PASSED] - Test Cases/Test Simple Search - Facet: Test Cases/Test Simple Search - Facet
+
+2020-04-23 14:24:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:24:23 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:24:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:24:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:24:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:24:33 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:24:35 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:24:46 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:24:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:24:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:24:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:24:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:24:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:25:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Subject: Lydbøker"): Text 'Subject: Lydbøker' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:25:18 - [MESSAGE][PASSED] - Text 'Subject: Lydbøker' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:25:18 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:25:21 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:25:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 583"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:25:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:25:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:25:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Simple Search - Masking (a single letter)" classname="Test Cases/Test Simple Search - Masking (a single letter)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:25:33 - [TEST_CASE][PASSED] - Test Cases/Test Simple Search - Masking (a single letter): Test Cases/Test Simple Search - Masking (a single letter)
+
+2020-04-23 14:25:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:25:34 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:25:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:25:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:25:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:25:44 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:25:46 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:25:57 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:26:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:26:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:26:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:26:05 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:26:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:26:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:26:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "b?rn"): Text 'b?rn' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:26:33 - [MESSAGE][PASSED] - Text 'b?rn' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:26:33 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:26:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), 30): Object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is present
+
+2020-04-23 14:26:36 - [MESSAGE][PASSED] - Object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is present
+
+2020-04-23 14:26:36 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:26:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 221"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:26:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:26:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:26:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Simple Search - Masking" classname="Test Cases/Test Simple Search - Masking" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:26:47 - [TEST_CASE][PASSED] - Test Cases/Test Simple Search - Masking: Test Cases/Test Simple Search - Masking
+
+2020-04-23 14:26:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:26:48 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:26:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:26:58 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:27:00 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:27:12 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:27:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:27:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:27:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:27:20 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:27:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:27:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:27:42 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:27:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Ha*n"): Text 'Ha*n' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:27:47 - [MESSAGE][PASSED] - Text 'Ha*n' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:27:47 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:27:49 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:27:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 718"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:27:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:27:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:28:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Single Search hit, only one hit result" classname="Test Cases/Test Single Search hit, only one hit result" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:28:01 - [TEST_CASE][PASSED] - Test Cases/Test Single Search hit, only one hit result: Test Cases/Test Single Search hit, only one hit result
+
+2020-04-23 14:28:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:28:01 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:28:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:28:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:28:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:28:14 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:28:18 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:28:31 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:28:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:28:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:28:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:28:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:28:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Cervantes"): Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:29:03 - [MESSAGE][PASSED] - Text 'Cervantes' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:29:03 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:29:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), 30): Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:29:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), "El Quijote de Cervantes"): Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:29:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:29:10 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2020-04-23 14:29:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-23 14:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:29:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-23 14:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-23 14:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:29:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:29:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test turn off stop word" classname="Test Cases/Test turn off stop word" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:29:20 - [TEST_CASE][PASSED] - Test Cases/Test turn off stop word: Test Cases/Test turn off stop word
+
+2020-04-23 14:29:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:29:21 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:29:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:29:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:29:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:29:31 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:29:33 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:29:45 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:29:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:29:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:29:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:29:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:30:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "En lang natt på jorden"): Text 'En lang natt på jorden' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:30:17 - [MESSAGE][PASSED] - Text 'En lang natt på jorden' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:30:17 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:30:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), 30): Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:30:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:30:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), "En lang natt på jorden"): Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:30:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:30:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:30:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:30:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify free text search" classname="Test Cases/Test verify free text search" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:30:32 - [TEST_CASE][PASSED] - Test Cases/Test verify free text search: Test Cases/Test verify free text search
+
+2020-04-23 14:30:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:30:32 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:30:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:30:42 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:30:44 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:30:55 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:30:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:31:00 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:31:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:31:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:31:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:31:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "cre:Hamsun"): Text 'cre:Hamsun' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:31:25 - [MESSAGE][PASSED] - Text 'cre:Hamsun' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:31:25 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:31:27 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:31:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 38"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:31:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:31:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:31:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:31:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify Fuzzy search (between 0-2 letters)" classname="Test Cases/Test verify Fuzzy search (between 0-2 letters)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:31:38 - [TEST_CASE][PASSED] - Test Cases/Test verify Fuzzy search (between 0-2 letters): Test Cases/Test verify Fuzzy search (between 0-2 letters)
+
+2020-04-23 14:31:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:31:39 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:31:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:31:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:31:49 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:31:52 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:31:59 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:32:04 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:32:04 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:32:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:32:09 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:32:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:32:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:32:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "me"): Text 'me' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:32:36 - [MESSAGE][PASSED] - Text 'me' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:32:36 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:32:39 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:32:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 125"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:32:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:32:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify Fuzzy search (between 3-5 letters)" classname="Test Cases/Test verify Fuzzy search (between 3-5 letters)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:32:51 - [TEST_CASE][PASSED] - Test Cases/Test verify Fuzzy search (between 3-5 letters): Test Cases/Test verify Fuzzy search (between 3-5 letters)
+
+2020-04-23 14:32:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:32:52 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:32:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:32:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:33:03 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:33:05 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:33:11 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:33:16 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:33:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:33:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:33:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:33:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "meyr"): Text 'meyr' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:33:51 - [MESSAGE][PASSED] - Text 'meyr' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:33:51 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:33:53 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:33:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 0"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:33:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:33:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:34:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:34:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify Fuzzy search (more tha 6 letters)" classname="Test Cases/Test verify Fuzzy search (more tha 6 letters)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:34:03 - [TEST_CASE][PASSED] - Test Cases/Test verify Fuzzy search (more tha 6 letters): Test Cases/Test verify Fuzzy search (more tha 6 letters)
+
+2020-04-23 14:34:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:34:04 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:34:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:34:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:34:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:34:14 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:34:16 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:34:27 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:34:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:34:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:34:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:34:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:34:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "norwgan"): Text 'norwgan' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:34:58 - [MESSAGE][PASSED] - Text 'norwgan' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:34:58 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:35:00 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:35:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 0"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:35:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:35:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:35:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:35:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify phrase search" classname="Test Cases/Test verify phrase search" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:35:11 - [TEST_CASE][PASSED] - Test Cases/Test verify phrase search: Test Cases/Test verify phrase search
+
+2020-04-23 14:35:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:35:13 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:35:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:35:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:35:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:35:26 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:35:28 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:35:41 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:35:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:35:45 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:35:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:35:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:35:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:36:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:36:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:36:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), ""magiske fingeren""): Text '"magiske fingeren"' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:36:16 - [MESSAGE][PASSED] - Text '"magiske fingeren"' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:36:16 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:36:18 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:36:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 3"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:36:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:36:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:36:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify scandinavian letters (Danish)" classname="Test Cases/Test verify scandinavian letters (Danish)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:36:29 - [TEST_CASE][PASSED] - Test Cases/Test verify scandinavian letters (Danish): Test Cases/Test verify scandinavian letters (Danish)
+
+2020-04-23 14:36:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:36:30 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:36:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:36:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:36:40 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:36:42 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:36:55 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:36:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:36:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:37:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:37:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Nissen hos Spækhøkeren"): Text 'Nissen hos Spækhøkeren' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:37:26 - [MESSAGE][PASSED] - Text 'Nissen hos Spækhøkeren' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:37:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), 30): Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:37:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' is visible
+
+2020-04-23 14:37:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_nightlyno - Axiell Quria/span_Title"), "Nissen hos Spækhøkeren"): Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:37:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_nightlyno - Axiell Quria/span_Title' are matched.
+
+2020-04-23 14:37:33 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2020-04-23 14:37:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-23 14:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:37:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-23 14:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is visible
+
+2020-04-23 14:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:37:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:37:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify scandinavian letters (Norwegian)" classname="Test Cases/Test verify scandinavian letters (Norwegian)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:37:43 - [TEST_CASE][PASSED] - Test Cases/Test verify scandinavian letters (Norwegian): Test Cases/Test verify scandinavian letters (Norwegian)
+
+2020-04-23 14:37:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:37:43 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:37:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:37:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:37:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:37:53 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:37:56 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:38:10 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:38:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:38:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:38:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:38:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:38:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "søster"): Text 'søster' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:38:44 - [MESSAGE][PASSED] - Text 'søster' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:38:44 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:38:46 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:38:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 56"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:38:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:38:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:38:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify scandinavian letters (Swedish)" classname="Test Cases/Test verify scandinavian letters (Swedish)" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:38:58 - [TEST_CASE][PASSED] - Test Cases/Test verify scandinavian letters (Swedish): Test Cases/Test verify scandinavian letters (Swedish)
+
+2020-04-23 14:38:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:38:59 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:38:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:38:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:39:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:39:09 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:39:12 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:39:26 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:39:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:39:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:39:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:39:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:39:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:39:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "söster "): Text 'söster ' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:40:03 - [MESSAGE][PASSED] - Text 'söster ' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:40:03 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:40:05 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:40:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 56"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:40:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:40:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test verify truncation and masking" classname="Test Cases/Test verify truncation and masking" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:40:16 - [TEST_CASE][PASSED] - Test Cases/Test verify truncation and masking: Test Cases/Test verify truncation and masking
+
+2020-04-23 14:40:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Patron/Test Case Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:40:17 - [TEST_CASE][PASSED] - Test Cases/Test Patron/Test Case Login: Test Cases/Test Patron/Test Case Login
+
+2020-04-23 14:40:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-23 14:40:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-23 14:40:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-23 14:40:27 - [TEST_STEP][PASSED] - navigateToUrl("https://nightlyno.quriaint.axiell.com"): Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:40:28 - [MESSAGE][PASSED] - Navigate to 'https://nightlyno.quriaint.axiell.com' successfully
+
+2020-04-23 14:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Test Simple Search/Page_Axiell Quria/a_Sign in with Google")): Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_Axiell Quria/a_Sign in with Google' is clicked on
+
+2020-04-23 14:40:34 - [TEST_STEP][PASSED] - setText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier"), "axiell.norge.quria@gmail.com"): Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:40:39 - [MESSAGE][PASSED] - Text 'axiell.norge.quria@gmail.com' is set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_axiell.com_identifier'
+
+2020-04-23 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste")): Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Capture Object Patron/Page_Logg p  Google-kontoer/span_Neste' is clicked on
+
+2020-04-23 14:40:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), 30): Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:40:43 - [MESSAGE][PASSED] - Object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password' is visible
+
+2020-04-23 14:40:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Capture Object Patron/Page_Axiell Quria/input_Password"), "d097ITWPO7f2v9EptRJGCg=="): Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:40:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Capture Object Patron/Page_Axiell Quria/input_Password'
+
+2020-04-23 14:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste")): Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual Captured Objects/Page_Logg p  Google-kontoer/div_Neste' is clicked on
+
+2020-04-23 14:40:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Patron/Test Case Login' successfully
+
+2020-04-23 14:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon")): Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/md-icon' is clicked on
+
+2020-04-23 14:41:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), 30): Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:41:09 - [MESSAGE][PASSED] - Object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu' is visible
+
+2020-04-23 14:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu"), "Ha*n AND hest*"): Text 'Ha*n AND hest*' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:41:14 - [MESSAGE][PASSED] - Text 'Ha*n AND hest*' is set on object 'Object Repository/Test Simple Search/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'
+
+2020-04-23 14:41:14 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/md-icon_1' is clicked on
+
+2020-04-23 14:41:16 - [TEST_STEP][PASSED] - click(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater")): Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' is clicked on
+
+2020-04-23 14:41:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater"), "Resultater: 3"): Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:41:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/test manuel objecter 2/Page_nightlyno - Axiell Quria/div_Resultater' are matched.
+
+2020-04-23 14:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/md-icon_expand_more' is clicked on
+
+2020-04-23 14:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av")): Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Clouse Browser/Page_nightlyno - Axiell Quria/a_exit_to_appLogg av' is clicked on
+
+2020-04-23 14:41:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-23 14:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-23 14:22:57 - [TEST_SUITE][PASSED] - Test Suite Quria Search: Test Cases/Test verify truncation and masking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
