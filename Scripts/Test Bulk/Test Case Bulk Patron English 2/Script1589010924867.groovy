@@ -35,7 +35,10 @@ WebUI.click(findTestObject('Object Repository/Object Bulk/Page_nightlyno - Axiel
 
 WebUI.doubleClick(findTestObject('Object Repository/Object Bulk/Page_nightlyno - Axiell Quria/md-select_Ingen forandringer               _795f6f'))
 
-WebUI.selectOptionByIndex(findTestObject('Object Bulk/Page_nightlyno - Axiell Quria/md-option_English'), '1', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Bulk/Page_nightlyno - Axiell Quria/md-option_Norwegian'), 'Norwegian', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('Object Bulk/Page_nightlyno - Axiell Quria/md-select_Ingen forandringer               _795f6f'), 
+    'Norwegian', true)
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Endre'))
 

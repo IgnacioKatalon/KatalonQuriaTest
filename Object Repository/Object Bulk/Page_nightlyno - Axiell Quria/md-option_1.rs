@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-option_Norwegian</name>
+   <name>md-option_1</name>
    <tag></tag>
-   <elementGuidId>8e236c3f-05b1-49e4-862b-244a8cde7319</elementGuidId>
+   <elementGuidId>b9d53e31-19af-4980-9d86-c50d6057f7eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-option[@id='select_option_301']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@ng-repeat = 'fieldValue in ctx.state.PatronCustomField4ForModify track by fieldValue.Id' and @ng-bind = 'fieldValue.DisplayName' and @ng-value = 'fieldValue' and @tabindex = '0' and @id = 'select_option_301' and (text() = 'Norwegian' or . = 'Norwegian')]</value>
+         <value>//md-option[@id='select_option_855']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,28 +20,28 @@
       <value>md-option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-repeat</name>
       <type>Main</type>
-      <value>fieldValue in ctx.state.PatronCustomField4ForModify track by fieldValue.Id</value>
+      <value>type in ctx.state.FilterCollectionItemTypesForModify track by type.Id</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-bind</name>
       <type>Main</type>
-      <value>fieldValue.DisplayName</value>
+      <value>type.DisplayName</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-value</name>
       <type>Main</type>
-      <value>fieldValue</value>
+      <value>type</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
@@ -77,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select_option_301</value>
+      <value>select_option_855</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,59 +90,66 @@
       <value>[object Object]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Norwegian</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select_option_301&quot;)</value>
+      <value>id(&quot;select_option_855&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//md-option[@id='select_option_301']</value>
+      <value>//md-option[@id='select_option_855']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='select_container_242']/md-select-menu/md-content/md-option[5]</value>
+      <value>//div[@id='select_container_850']/md-select-menu/md-content/md-option[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Italian'])[2]/following::md-option[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tøm verdi'])[1]/following::md-option[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[5]/following::md-option[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingen forandringer'])[8]/following::md-option[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spanish'])[2]/preceding::md-option[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aldersgrense 10 år'])[2]/preceding::md-option[32]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aldersgrense 11 år'])[2]/preceding::md-option[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/md-select-menu/md-content/md-option[5]</value>
+      <value>//div[6]/md-select-menu/md-content/md-option[3]</value>
    </webElementXpaths>
 </WebElementEntity>

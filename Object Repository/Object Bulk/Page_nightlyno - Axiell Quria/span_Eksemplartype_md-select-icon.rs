@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Ingen forandringer_md-select-icon</name>
+   <name>span_Eksemplartype_md-select-icon</name>
    <tag></tag>
-   <elementGuidId>d4d58755-0067-43c4-96a1-a03a822c559f</elementGuidId>
+   <elementGuidId>c71bc25f-c14f-4fc4-b368-b51f6bfb186b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-select-value[@id='select_value_label_190']/span[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;select_value_label_190&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
+         <value>//md-select-value[@id='select_value_label_849']/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,20 +38,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select_value_label_190&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
+      <value>id(&quot;select_value_label_849&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_190']/span[2]</value>
+      <value>//md-select-value[@id='select_value_label_849']/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ax-select-container[4]/md-input-container/ng-transclude/md-select/md-select-value/span[2]</value>
+      <value>//form/div/div/md-card/md-card-content/div/ax-select-container[4]/md-input-container/ng-transclude/md-select/md-select-value/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

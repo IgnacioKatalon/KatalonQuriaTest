@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//form[@id='action-CommitChanges']/div/div[2]/ax-button/button/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;action-CommitChanges&quot;)/div[1]/div[@class=&quot;ax-margin-20 ax-no-margin-top-important ng-scope layout-align-end-stretch layout-row&quot;]/ax-button[@class=&quot;ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button ax-button-progress-indicator ax-button-without-icon md-button ng-scope md-ink-ripple&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-CommitChanges&quot;)/div[1]/div[@class=&quot;ax-margin-20 ax-no-margin-top-important ng-scope layout-align-end-stretch layout-row&quot;]/ax-button[@class=&quot;ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button ax-button-progress-indicator ax-button-without-icon md-button ng-scope md-ink-ripple&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <value>id(&quot;action-CommitChanges&quot;)/div[1]/div[@class=&quot;ax-margin-20 ax-no-margin-top-important ng-scope layout-align-end-stretch layout-row&quot;]/ax-button[@class=&quot;ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button ax-button-progress-indicator ax-button-without-icon md-button ng-scope md-ink-ripple md-focused&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +57,41 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbryt'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hylle - eksemplar'])[2]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Endre']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ax-button/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingen forandringer'])[7]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tøm verdi'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,13 +113,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tøm verdi'])[8]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Endre']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//form[@id='action-SaveCurrentPatron']/div/md-card-content/div/div/ax-labeled-value[8]/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;action-SaveCurrentPatron&quot;)/div[1]/md-card-content[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-flex-row layout-wrap layout-gt-xs-row layout-column&quot;]/ax-labeled-value[@class=&quot;ng-scope ng-isolate-scope flex-gt-xs-50 flex-gt-sm-33&quot;]/div[@class=&quot;readonly&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
