@@ -1,134 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-icon</name>
+   <name>button_Lagre (1)</name>
    <tag></tag>
-   <elementGuidId>0221bd17-227c-49df-9927-2cf1fd61a330</elementGuidId>
+   <elementGuidId>86e21c85-d5fa-45b4-a33a-b32edb0c92b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='nav_module_id_collection']/span/md-icon</value>
+         <value>//button[@id='action-Commit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>md-icon</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-svg-icon</name>
+      <name>class</name>
       <type>Main</type>
-      <value>patrons</value>
+      <value>ax-button md-button md-ink-ripple md-focused</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>type</name>
       <type>Main</type>
-      <value>img</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>spl-action</name>
       <type>Main</type>
-      <value>true</value>
+      <value>Commit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>action-Commit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+          Lagre
+        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav_module_id_new_patrons&quot;)/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
+      <value>id(&quot;dialogContent_69&quot;)/ng-include[@class=&quot;ax-dialog-include ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/md-dialog-content[@class=&quot;ax-padding-bottom-10 layout-column&quot;]/ax-form[@class=&quot;ng-isolate-scope&quot;]/form[@id=&quot;action-Commit&quot;]/div[1]/md-dialog-actions[@class=&quot;ax-dialog-actions ax-margin-top-10 ax-margin-left-10 ax-margin-right-10 ng-scope&quot;]/button[@id=&quot;action-Commit&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='nav_module_id_new_patrons']/span/md-icon</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hjem'])[1]/following::md-icon[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arena'])[1]/following::md-icon[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Låner'])[1]/preceding::md-icon[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Samlinger'])[1]/preceding::md-icon[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//md-list-item[2]/a/span/md-icon</value>
+      <value>//button[@id='action-Commit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='nav_module_id_collection']/span/md-icon</value>
+      <value>//form[@id='action-Commit']/div/md-dialog-actions/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Låner'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbryt'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hjem'])[1]/following::md-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merknad'])[3]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Samlinger'])[1]/preceding::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingen valgt'])[3]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Innkjøp'])[1]/preceding::md-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='> Folksbiblioteket'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lagre']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//md-list-item[3]/a/span/md-icon</value>
+      <value>//md-dialog-actions/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

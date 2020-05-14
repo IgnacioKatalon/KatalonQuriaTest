@@ -1,92 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-icon_1</name>
+   <name>td_Ignacio budsjett 2</name>
    <tag></tag>
-   <elementGuidId>b0645d70-c3e2-4da3-bfe5-dbe5c045a7dc</elementGuidId>
+   <elementGuidId>50b4b934-54f1-4767-8e50-9fdb9385a07e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='field-Query']/button/md-icon</value>
+         <value>//tr[@id='field-OpenedRow']/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>md-icon</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-svg-icon</name>
+      <name>title</name>
       <type>Main</type>
-      <value>search</value>
+      <value>Budget name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>class</name>
       <type>Main</type>
-      <value>img</value>
+      <value>ng-isolate-scope</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>text</name>
       <type>Main</type>
-      <value>true</value>
+      <value>
+            
+              Ignacio budsjett 2
+            
+            
+            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;field-Query&quot;)/button[@class=&quot;ax-contextual-shortcut__exclude ax-search-submit&quot;]/md-icon[1]</value>
+      <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='field-Query']/button/md-icon</value>
+      <value>//tr[@id='field-OpenedRow']/td</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bankfiler'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Budsjett'])[2]/following::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mengdehåndtering'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum'])[1]/following::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/preceding::md-icon[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legg til låner'])[1]/preceding::md-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Totalt beløp'])[2]/preceding::td[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button/md-icon</value>
+      <value>//table[2]/tbody/tr/td</value>
    </webElementXpaths>
 </WebElementEntity>

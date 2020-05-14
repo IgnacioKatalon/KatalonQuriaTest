@@ -1,92 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-icon_1</name>
+   <name>div_Spendings per budget(1)</name>
    <tag></tag>
-   <elementGuidId>b0645d70-c3e2-4da3-bfe5-dbe5c045a7dc</elementGuidId>
+   <elementGuidId>d3483dd8-5dbc-4453-a1fb-d7f4ca4e5505</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='field-Query']/button/md-icon</value>
+         <value>//form[@id='action-Search']/div/div/h3/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>md-icon</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>md-svg-icon</name>
+      <name>class</name>
       <type>Main</type>
-      <value>search</value>
+      <value>ng-binding</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>text</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>
+          Spendings per budget(1)
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;field-Query&quot;)/button[@class=&quot;ax-contextual-shortcut__exclude ax-search-submit&quot;]/md-icon[1]</value>
+      <value>id(&quot;action-Search&quot;)/div[1]/div[@class=&quot;ng-scope layout-align-space-between-center layout-row&quot;]/h3[@class=&quot;ax-margin-20 layout-align-space-around-center layout-row&quot;]/div[@class=&quot;ng-binding&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='field-Query']/button/md-icon</value>
+      <value>//form[@id='action-Search']/div/div/h3/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bankfiler'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Søk'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mengdehåndtering'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testfest supplier 2'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/preceding::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last ned som PDF'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legg til låner'])[1]/preceding::md-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last ned som CSV'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Spendings per budget(1)']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button/md-icon</value>
+      <value>//h3/div</value>
    </webElementXpaths>
 </WebElementEntity>

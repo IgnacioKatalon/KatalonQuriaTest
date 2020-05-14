@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>md-icon_1</name>
+   <name>md-icon</name>
    <tag></tag>
-   <elementGuidId>b0645d70-c3e2-4da3-bfe5-dbe5c045a7dc</elementGuidId>
+   <elementGuidId>3f5ed8f8-00c6-4d55-8a71-f11d2fa01d35</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='field-Query']/button/md-icon</value>
+         <value>(//a[@id='nav_module_id_collection']/span/md-icon)[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>md-svg-icon</name>
       <type>Main</type>
-      <value>search</value>
+      <value>admin</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,48 +45,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;field-Query&quot;)/button[@class=&quot;ax-contextual-shortcut__exclude ax-search-submit&quot;]/md-icon[1]</value>
+      <value>id(&quot;left-column&quot;)/md-content[@class=&quot;_md&quot;]/md-list[1]/md-list-item[@class=&quot;md-no-proxy ng-scope _md md-clickable&quot;]/a[@id=&quot;nav_module_id_collection&quot;]/span[@class=&quot;ax-menu-icon&quot;]/md-icon[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>screenshot</name>
+      <type>Main</type>
+      <value>C:/Users/ignacio/Katalon Studio/KatalonQuriaTest/Screenshots/Targets/md-icon.png</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='field-Query']/button/md-icon</value>
+      <value>(//a[@id='nav_module_id_collection']/span/md-icon)[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bankfiler'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statistikk'])[1]/following::md-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mengdehåndtering'])[1]/following::md-icon[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arrangementer'])[1]/following::md-icon[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/preceding::md-icon[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legg til låner'])[1]/preceding::md-icon[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oppsett'])[1]/preceding::md-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button/md-icon</value>
+      <value>//md-list-item[8]/a/span/md-icon</value>
    </webElementXpaths>
 </WebElementEntity>
