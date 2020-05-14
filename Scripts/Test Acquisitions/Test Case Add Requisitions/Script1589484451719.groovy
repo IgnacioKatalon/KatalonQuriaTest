@@ -18,3 +18,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon'))
+
+WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Abonnementer_search-input'), 'La colmena')
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_1'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_more_vert'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/button_Legg til rekvisisjon'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Adlibris'))
+
+WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Enhetspris_ctxstatePrice'), '200')
+
+WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Merknad_ctxstateNote'), 'test')
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/button_Lagre'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/div_Rekvisisjon lagt til'))
+
+WebUI.closeBrowser()
+

@@ -1,41 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Ignacio budsjett 2</name>
+   <name>button_Tilbake til sket (1)</name>
    <tag></tag>
-   <elementGuidId>50b4b934-54f1-4767-8e50-9fdb9385a07e</elementGuidId>
+   <elementGuidId>c74726da-8747-4dab-aefa-d062db1db801</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='field-OpenedRow']/td</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Budget name</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-isolate-scope</value>
+      <value>ax-button md-button ng-scope md-ink-ripple</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>ctx.state.Origin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ax-go-back</name>
+      <type>Main</type>
+      <value>spl://metadata/e6577300-18cd-4938-95dc-8690d6b50505/WorkSearchProcess/47414d0e-c64d-405f-8b64-c4043d15f9b0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,52 +53,49 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            
-              Ignacio budsjett 2
-            
-            
-            </value>
+      Tilbake til søket
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope layout-align-center-center layout-column&quot;]/button[@class=&quot;ax-button md-button ng-scope md-ink-ripple&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='field-OpenedRow']/td</value>
+      <value>//md-content[@id='content']/div/div/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Budsjett'])[2]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Det siste uttrykket for dette språket er slettet'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum'])[1]/following::td[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Totalt beløp'])[2]/preceding::td[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tilbake til søket'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[2]/tbody/tr/td</value>
+      <value>//div/div/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

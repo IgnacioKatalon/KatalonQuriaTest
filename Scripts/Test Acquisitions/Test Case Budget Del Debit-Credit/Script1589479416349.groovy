@@ -18,3 +18,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Budsjetter'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Sk'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Ignacio budsjett 2'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/td_20000'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Delete debitcredit'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Slett'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_close'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_000'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_close_1'))
+
+WebUI.closeBrowser()
+

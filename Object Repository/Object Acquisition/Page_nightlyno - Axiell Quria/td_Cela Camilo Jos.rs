@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Ignacio budsjett 2</name>
+   <name>td_Cela Camilo Jos</name>
    <tag></tag>
-   <elementGuidId>50b4b934-54f1-4767-8e50-9fdb9385a07e</elementGuidId>
+   <elementGuidId>94ff5da1-3767-4621-a6b9-e00dbae1b6cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='field-OpenedRow']/td</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
+         <value>(//td[@value='item.Creator'])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,9 +22,23 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>sort-by</name>
+      <type>Main</type>
+      <value>Work.CreatorName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Budget name</value>
+      <value>Forfatter</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>item.Creator</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,53 +52,55 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            
-              Ignacio budsjett 2
-            
-            
-            </value>
+      <value>Cela, Camilo José</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ax-metadata-search ng-scope layout-row flex&quot;]/div[@class=&quot;ax-search flex&quot;]/div[@class=&quot;ax-search-results flex&quot;]/div[3]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//td[@value='item.Creator'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='field-OpenedRow']/td</value>
+      <value>(//tr[@id='field-OpenedRow']/td[2])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Budsjett'])[2]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dansk'])[1]/following::td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sum'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bikuben i hundrede år'])[1]/following::td[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Totalt beløp'])[2]/preceding::td[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='La colmena'])[1]/preceding::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[2]/tbody/tr/td</value>
+      <value>//tr[2]/td[2]</value>
    </webElementXpaths>
 </WebElementEntity>

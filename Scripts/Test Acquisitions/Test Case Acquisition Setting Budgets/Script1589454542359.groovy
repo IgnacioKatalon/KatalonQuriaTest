@@ -22,3 +22,46 @@ WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno 
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Budsjetter'))
 
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Legg til budsjett'))
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Kode_ctxstateCurrentBudgetCode'), 
+    '150')
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Budsjett_ctxstateCurrentBudgetName'), 
+    'Ignacio budsjett 2')
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_ Drammenbiblioteket1'))
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Merknad_ctxstateCurrentBudgetNote'), 
+    'Automatic testing')
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_r_ctxstateFirstBudgetPeriodYear'), 
+    '2020')
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Belp_ctxstateBudgetPeriodAmount'), 
+    '200000')
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Varselsniv ()_ctxstateFirstBudgetPeri_2394ce'), 
+    '70')
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/input_Merknad_ctxstateFirstBudgetPeriodNote'), 
+    'Kommentar felt')
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Lagre'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/md-icon_1'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Budsjetter'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon_1'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Sk'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/td_Ignacio budsjett 2'))
+
+WebUI.closeBrowser()
+

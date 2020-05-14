@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Ingen valgt_md-select-icon</name>
+   <name>span_Lagre</name>
    <tag></tag>
-   <elementGuidId>1b71972f-1161-4c57-bf6c-fb472bc75457</elementGuidId>
+   <elementGuidId>7c45ea3e-0d5b-430c-ba09-5af605cdbc83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//md-select-value[@id='select_value_label_57']/span[2]</value>
+         <value>//form[@id='action-Commit']/div/div/md-dialog/md-dialog-content/md-dialog-actions/ax-button/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,76 +24,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md-select-icon</value>
+      <value>ng-binding ng-scope</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>text</name>
       <type>Main</type>
-      <value>true</value>
+      <value>Lagre</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select_value_label_57&quot;)/span[@class=&quot;md-select-icon&quot;]</value>
+      <value>id(&quot;action-Commit&quot;)/div[1]/div[@class=&quot;ax-dialog-container ax-dialog-container--medium md-dialog-container ng-scope&quot;]/md-dialog[@class=&quot;ax-dialog md-transition-in ax-no-margin _md&quot;]/md-dialog-content[@class=&quot;ax-dialog-content ax-no-margin layout-column&quot;]/md-dialog-actions[@class=&quot;ax-no-margin&quot;]/ax-button[@class=&quot;ax-no-margin ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button md-button ng-scope md-ink-ripple md-focused&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_57']/span[2]</value>
+      <value>//form[@id='action-Commit']/div/div/md-dialog/md-dialog-content/md-dialog-actions/ax-button/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbryt'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merknad'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingen valgt'])[6]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA2019'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lagre']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//md-select-value/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_49']/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_81']/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//ax-select-container[2]/md-input-container/ng-transclude/md-select/md-select-value/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_145']/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_133']/span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//md-select-value[@id='select_value_label_70']/span[2]</value>
+      <value>//md-dialog-content/md-dialog-actions/ax-button/button/span</value>
    </webElementXpaths>
 </WebElementEntity>
