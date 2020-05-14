@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_more_vert_1_2</name>
+   <tag></tag>
+   <elementGuidId>33acccbd-862e-4eb2-9a3d-5749cf2dd460</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//md-content[@id='content']/div/div/div[2]/div[2]/md-card/md-card-content/table/tbody/tr/td[5]/div/md-menu/button/md-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-font-library</name>
+      <type>Main</type>
+      <value>material-icons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Åpne kontekstmenyen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-scope material-icons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Åpne kontekstmenyen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>more_vert</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;ng-scope layout-column flex&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-work-page ng-scope&quot;]/div[@class=&quot;work-expressions&quot;]/md-card[@class=&quot;ax-card-blue ng-scope _md&quot;]/md-card-content[@class=&quot;ax-no-border-important ax-no-border-collapse ax-table&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@class=&quot;ax-table-row&quot;]/td[@class=&quot;context-menu ng-scope&quot;]/div[@class=&quot;ax-item-menu&quot;]/md-menu[@class=&quot;md-menu ng-scope _md&quot;]/button[@class=&quot;md-icon-button menu-button md-button md-ink-ripple&quot;]/md-icon[@class=&quot;ng-scope material-icons&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-content[@id='content']/div/div/div[2]/div[2]/md-card/md-card-content/table/tbody/tr/td[5]/div/md-menu/button/md-icon</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reserver'])[1]/following::md-icon[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/md-menu/button/md-icon</value>
+   </webElementXpaths>
+</WebElementEntity>

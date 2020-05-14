@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHand
 
 WebUI.click(findTestObject('Object Repository/Object Bulk/Page_nightlyno - Axiell Quria/md-icon'))
 
-WebUI.click(findTestObject('Object Repository/Object Bulk/Page_nightlyno - Axiell Quria/a_Mengdehndtering'))
+WebUI.click(findTestObject('Object Bulk/Page_nightlyno - Axiell Quria/a_Mengdehndtering'))
 
 WebUI.setText(findTestObject('Object Repository/Object Bulk/Page_nightlyno - Axiell Quria/input_Bankfiler_search-input'), 
     'Tejera')
