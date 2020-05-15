@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Legg til rekvisisjon</name>
+   <name>button_Legg til rekvisisjon (1)</name>
    <tag></tag>
-   <elementGuidId>f52cf95b-17d6-49a7-8a52-3cb1109f88fb</elementGuidId>
+   <elementGuidId>490d08df-9d8d-4a80-84d4-edce2db00630</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[24]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;menu_container_36&quot;)/md-menu-content[@id=&quot;ax_context&quot;]/md-menu-item[@class=&quot;ng-scope&quot;]/button[@class=&quot;md-button md-ink-ripple md-focused&quot;][count(. | //*[(text() = '
+                        
+                        Legg til rekvisisjon
+                      ' or . = '
+                        
+                        Legg til rekvisisjon
+                      ')]) = count(//*[(text() = '
+                        
+                        Legg til rekvisisjon
+                      ' or . = '
+                        
+                        Legg til rekvisisjon
+                      ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +75,7 @@
       <value>menuitem</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -73,7 +89,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu_container_88&quot;)/md-menu-content[@id=&quot;ax_context&quot;]/md-menu-item[@class=&quot;ng-scope&quot;]/button[@class=&quot;md-button md-ink-ripple md-focused&quot;]</value>
+      <value>id(&quot;menu_container_36&quot;)/md-menu-content[@id=&quot;ax_context&quot;]/md-menu-item[@class=&quot;ng-scope&quot;]/button[@class=&quot;md-button md-ink-ripple md-focused&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Legg til rekvisisjon</name>
+   <name>button_Legg til plassering</name>
    <tag></tag>
-   <elementGuidId>f52cf95b-17d6-49a7-8a52-3cb1109f88fb</elementGuidId>
+   <elementGuidId>38fc7068-ccf4-4e74-a7d0-d636beb7cc85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[24]</value>
+         <value>(//button[@type='button'])[28]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md-button md-ink-ripple md-focused</value>
+      <value>ax-button ax-button-outlined ax-no-margin md-button md-ink-ripple md-focused</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-disabled</name>
       <type>Main</type>
-      <value>!hasPermission(PERMISSION_CODES.AED_REQUISITION)</value>
+      <value>!ctx.state.SelectedSupplier</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,68 +46,81 @@
       <name>spl-navigate-to-process</name>
       <type>Main</type>
       <value>{
-                          subsystem: 'acquisition',
-                          name: 'EditRequisitionProcess',
-                          data: { Manifestation: item.Manifestation }
-                        }</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>menuitem</value>
+            subsystem: 'acquisition',
+            name: 'EditRequisitionLocationProcess',
+            data: {ParentProcessUri: processUri},
+            target: '_stacked_simple'
+          }</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                        
-                        Legg til rekvisisjon
-                      </value>
+      <value>Legg til plassering
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu_container_88&quot;)/md-menu-content[@id=&quot;ax_context&quot;]/md-menu-item[@class=&quot;ng-scope&quot;]/button[@class=&quot;md-button md-ink-ripple md-focused&quot;]</value>
+      <value>id(&quot;dialogContent_96&quot;)/ng-include[@class=&quot;ax-dialog-include ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ax-padding-20 ng-scope&quot;]/div[@class=&quot;ax-margin-10 ax-margin-top-20&quot;]/div[@class=&quot;layout-align-space-between-center layout-row&quot;]/button[@class=&quot;ax-button ax-button-outlined ax-no-margin md-button md-ink-ripple md-focused&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[24]</value>
+      <value>(//button[@type='button'])[28]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//md-menu-content[@id='ax_context']/md-menu-item[4]/button)[2]</value>
+      <value>//md-dialog[@id='dialogContent_96']/ng-include/div/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='add_circle_outline'])[3]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plasseringer'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Legg til rekvisisjon']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merknad'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingen plasseringer'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbryt'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Legg til plassering']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/md-menu-content/md-menu-item[4]/button</value>
+      <value>//ng-include/div/div/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

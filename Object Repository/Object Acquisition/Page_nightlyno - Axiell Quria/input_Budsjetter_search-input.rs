@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ax-search-field ng-pristine ng-untouched ng-valid md-autofocus ng-not-empty</value>
+      <value>ax-search-field ng-pristine ng-untouched ng-valid md-autofocus ng-empty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

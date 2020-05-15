@@ -171,7 +171,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//md-dialog[@id='dialogContent_56']/ng-include/div/div/md-card/md-card-content/div/ax-input/md-input-container/input</value>
+      <value>//md-dialog[@id='dialogContent_96']/ng-include/div/div/md-card/md-card-content/div/ax-input/md-input-container/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -179,6 +179,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//md-dialog[@id='dialogContent_56']/ng-include/div/div/md-card/md-card-content/div/ax-input/md-input-container/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

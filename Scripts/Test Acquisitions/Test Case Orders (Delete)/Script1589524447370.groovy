@@ -18,23 +18,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-icon_1_2'))
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon'))
 
-WebUI.setText(findTestObject('Manual Captured Objects/Page_nightlyno - Axiell Quria/input_Abonnementer_search-inpu'), 'La colmena')
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Bestillinger'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_1'))
-
-WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/div_Opprett bestilling_md-container md-ink-ripple'))
-
-WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/button_Opprett bestilling'))
-
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Bestillinger'))
-
-WebUI.setText(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/input_Abonnementer_search-input'), 'La colmena')
+WebUI.setText(findTestObject('Page_nightlyno - Axiell Quria/input_Budsjetter_search-input'), 'La colmena')
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_1'))
 
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/div_Titler (1)'))
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_more_vert'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_delete                Avbryt bestill_bcbf38'))
+
+WebUI.setText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/textarea_Kommentar_ctxstateCancellationComment'), 
+    'automatic test')
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Ja avbryt bestillingslinje'))
+
+WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_1'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/p_Sket ditt ga ingen treff La colmena'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/p_Sket ditt ga ingen treff La colmena'), 
+    'Søket ditt ga ingen treff')
 
 WebUI.closeBrowser()
 
