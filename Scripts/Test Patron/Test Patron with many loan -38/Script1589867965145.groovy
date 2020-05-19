@@ -17,13 +17,13 @@ WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHand
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon-Patron'))
 
-WebUI.setText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron'), '38 loan, Patron')
+WebUI.setText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/input_Search-Patron'), 'Tejera Picossi')
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-iconSearchPatron'))
 
 WebUI.click(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/md-icon_closePatron'))
 
-WebUI.verifyElementText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName'), '38 loan, Patron')
+WebUI.verifyElementText(findTestObject('Capture Object Patron/Page_nightlyno - Axiell Quria/td_PatronName'), 'Tejera Picossi, Porfirio')
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Logout and Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

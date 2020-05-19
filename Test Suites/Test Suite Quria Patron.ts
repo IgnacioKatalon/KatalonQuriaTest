@@ -82,4 +82,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Patron/Test Delete Patron OK</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>12310e56-01c2-47be-aa03-72c60458dc58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Patron/Test Patron with many loan -38</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
