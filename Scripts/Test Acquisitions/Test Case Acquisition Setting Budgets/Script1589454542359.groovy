@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/md-icon_1'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-icon'))
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Budsjetter'))
 
@@ -54,12 +54,6 @@ WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/md-icon_1'))
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Budsjetter'))
-
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon_1'))
-
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
-
-WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_Sk'))
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/td_Ignacio budsjett 2'))
 

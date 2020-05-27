@@ -22,9 +22,9 @@ WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon'))
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Budsjetter'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Sk'))
 
@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_close'))
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/span_000'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon_close_1'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-icon_close_1'))
 
 WebUI.closeBrowser()
 

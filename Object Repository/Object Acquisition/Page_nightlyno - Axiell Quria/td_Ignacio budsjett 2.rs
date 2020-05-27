@@ -6,15 +6,15 @@
    <elementGuidId>50b4b934-54f1-4767-8e50-9fdb9385a07e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='field-OpenedRow']/td</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tr[@id='field-OpenedRow']/td[2])[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Budget name</value>
+      <value>Budsjett</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sort-by</name>
+      <type>Main</type>
+      <value>Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,21 +50,67 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            
-              Ignacio budsjett 2
-            
-            
-            </value>
+          Ignacio budsjett 2
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-Search&quot;)/div[1]/md-card[@class=&quot;ax-card-info ax-card-white ax-no-margin ax-margin-bottom-20 ng-scope _md&quot;]/md-card-content[@class=&quot;layout-column&quot;]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
+      <value>id(&quot;budgets-search-result&quot;)/table[@class=&quot;ax-table ng-scope&quot;]/tbody[1]/tr[@id=&quot;field-OpenedRow&quot;]/td[@class=&quot;ng-isolate-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='field-OpenedRow']/td[2])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testing'])[1]/following::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ignacio budsjet'])[1]/following::td[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automatic testing'])[1]/preceding::td[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADA-2019'])[1]/preceding::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ignacio budsjett 2']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

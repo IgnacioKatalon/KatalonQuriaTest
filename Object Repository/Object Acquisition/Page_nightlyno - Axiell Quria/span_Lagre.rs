@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='action-Commit']/div/div/md-dialog/md-dialog-content/md-dialog-actions/ax-button/button/span</value>
+         <value>//form[@id='action-Commit']/div/div[2]/ax-button/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,6 +29,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>md-labeled-by-tooltip</name>
+      <type>Main</type>
+      <value>md-tooltip-71</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Lagre</value>
@@ -38,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-Commit&quot;)/div[1]/div[@class=&quot;ax-dialog-container ax-dialog-container--medium md-dialog-container ng-scope&quot;]/md-dialog[@class=&quot;ax-dialog md-transition-in ax-no-margin _md&quot;]/md-dialog-content[@class=&quot;ax-dialog-content ax-no-margin layout-column&quot;]/md-dialog-actions[@class=&quot;ax-no-margin&quot;]/ax-button[@class=&quot;ax-no-margin ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button md-button ng-scope md-ink-ripple md-focused&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
+      <value>id(&quot;action-Commit&quot;)/div[1]/div[@class=&quot;ax-margin-20 ax-no-margin-top-important ng-scope layout-align-end-stretch layout-row&quot;]/ax-button[@class=&quot;ng-isolate-scope&quot;]/button[@class=&quot;md-button ax-button md-button ng-scope md-ink-ripple md-focused&quot;]/span[@class=&quot;ng-binding ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='action-Commit']/div/div/md-dialog/md-dialog-content/md-dialog-actions/ax-button/button/span</value>
+      <value>//form[@id='action-Commit']/div/div[2]/ax-button/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +60,34 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbryt'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vekselkurs'])[2]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lagre']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ax-button/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='action-Commit']/div/div/md-dialog/md-dialog-content/md-dialog-actions/ax-button/button/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,13 +109,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AA2019'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Lagre']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

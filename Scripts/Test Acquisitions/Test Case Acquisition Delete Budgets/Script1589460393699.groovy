@@ -22,3 +22,11 @@ WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno 
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/a_Budsjetter'))
 
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/td_Ignacio budsjett 2'))
+
+WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Slett budsjett'))
+
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/button_Slett'))
+
+WebUI.closeBrowser()
+

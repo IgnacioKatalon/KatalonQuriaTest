@@ -17,19 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Test Patron/Test Case Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://nightlyno.quriaint.axiell.com/frontend/e6577300-18cd-4938-95dc-8690d6b50505/content/index.html?oicProvider=google#/startProcess/frontend/StartpageDashboardProcess')
-
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-icon'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-icon'))
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Budsjetter'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/span_Ingen valgt_md-select-icon'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/md-option_Ignacio budsjett 2'))
 
 WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/span_Sk'))
 
-WebUI.click(findTestObject('Page_nightlyno - Axiell Quria/td_Ignacio budsjett 2'))
+WebUI.click(findTestObject('Object Acquisition/Page_nightlyno - Axiell Quria/td_Ignacio budsjett 2'))
 
 WebUI.click(findTestObject('Object Repository/Object Acquisition/Page_nightlyno - Axiell Quria/button_Add debitcredit'))
 
